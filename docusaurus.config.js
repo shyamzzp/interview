@@ -7,11 +7,11 @@ module.exports = {
   title: "Interview Preparation",
   tagline: "Interview Preparation for Computer Science Interviews",
   url: "https://shyamzzp.github.io/interview",
-  baseUrl: "/",
+  baseUrl: "/interview/",
   onBrokenLinks: "throw",
   onBrokenMarkdownLinks: "warn",
   favicon: "img/favicon.ico",
-  organizationName: "Comp-Labs", // Usually your GitHub org/user name.
+  organizationName: "shyamzzp", // Usually your GitHub org/user name.
   projectName: "interview", // Usually your repo name.
   deploymentBranch: "main",
   trailingSlash: "false",
@@ -105,7 +105,7 @@ module.exports = {
       prism: {
         additionalLanguages: ["java", "markdown"],
       },
-      image: "img/comp-labs-logo.png",
+      image: "img/shyamzzp-logo.png",
 
       tableOfContents: {
         minHeadingLevel: 2,
@@ -118,6 +118,11 @@ module.exports = {
           {
             to: "/docs/design-patterns/",
             label: "Design Patterns 🚧",
+            position: "left",
+          },
+          {
+            to: "/docs/data-structures/",
+            label: "Data Structures",
             position: "left",
           },
           // { to: "/docs/", label: "Docs 🚧", position: "left" },

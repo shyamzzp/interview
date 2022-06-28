@@ -1,0 +1,27 @@
+{
+  "unversionedId": "data-structures/sorting-algorithms",
+  "id": "data-structures/sorting-algorithms",
+  "title": "Sorting Algorithms",
+  "description": "This will cover the most of the topics that will be part of the Sorting Algorithms.",
+  "source": "@site/docs/data-structures/sorting-algorithms.md",
+  "sourceDirName": "data-structures",
+  "slug": "/data-structures/sorting-algorithms",
+  "permalink": "/interview/docs/data-structures/sorting-algorithms",
+  "draft": false,
+  "tags": [],
+  "version": "current",
+  "frontMatter": {
+    "tree_title": "Sorting Algorithms",
+    "description": "This will cover the most of the topics that will be part of the Sorting Algorithms.",
+    "last_modified": "2022-06-08T16:35:30.353Z"
+  },
+  "sidebar": "docs",
+  "previous": {
+    "title": "Snippets",
+    "permalink": "/interview/docs/data-structures/snippets"
+  },
+  "next": {
+    "title": "Tree",
+    "permalink": "/interview/docs/data-structures/tree"
+  }
+}

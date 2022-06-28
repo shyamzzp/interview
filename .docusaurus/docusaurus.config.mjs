@@ -7,11 +7,11 @@ export default {
   "title": "Interview Preparation",
   "tagline": "Interview Preparation for Computer Science Interviews",
   "url": "https://shyamzzp.github.io/interview",
-  "baseUrl": "/",
+  "baseUrl": "/interview/",
   "onBrokenLinks": "throw",
   "onBrokenMarkdownLinks": "warn",
   "favicon": "img/favicon.ico",
-  "organizationName": "Comp-Labs",
+  "organizationName": "shyamzzp",
   "projectName": "interview",
   "deploymentBranch": "main",
   "trailingSlash": false,
@@ -53,7 +53,7 @@ export default {
       "@docusaurus/preset-classic",
       {
         "docs": {
-          "sidebarPath": "C:\\Users\\shyam\\Desktop\\comp-labs-website-main\\comp-labs-website-main\\sidebars.js"
+          "sidebarPath": "C:\\Users\\shyam\\Desktop\\Self Projects\\interview\\sidebars.js"
         },
         "blog": {
           "blogTitle": "Comp Labs Blog",
@@ -66,7 +66,7 @@ export default {
           }
         },
         "theme": {
-          "customCss": "C:\\Users\\shyam\\Desktop\\comp-labs-website-main\\comp-labs-website-main\\src\\css\\custom.css"
+          "customCss": "C:\\Users\\shyam\\Desktop\\Self Projects\\interview\\src\\css\\custom.css"
         },
         "sitemap": {
           "changefreq": "always",
@@ -305,7 +305,7 @@ export default {
         }
       ]
     },
-    "image": "img/comp-labs-logo.png",
+    "image": "img/shyamzzp-logo.png",
     "tableOfContents": {
       "minHeadingLevel": 2,
       "maxHeadingLevel": 6
@@ -317,6 +317,11 @@ export default {
         {
           "to": "/docs/design-patterns/",
           "label": "Design Patterns 🚧",
+          "position": "left"
+        },
+        {
+          "to": "/docs/data-structures/",
+          "label": "Data Structures",
           "position": "left"
         },
         {

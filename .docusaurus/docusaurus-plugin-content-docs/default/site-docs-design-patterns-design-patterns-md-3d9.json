@@ -6,7 +6,7 @@
   "source": "@site/docs/design-patterns/design-patterns.md",
   "sourceDirName": "design-patterns",
   "slug": "/design-patterns/",
-  "permalink": "/docs/design-patterns/",
+  "permalink": "/interview/docs/design-patterns/",
   "draft": false,
   "tags": [],
   "version": "current",
@@ -15,5 +15,9 @@
     "description": "Low level definition of terms used in design patterns.",
     "last_modified": "2022-06-21T00:20:02.202Z"
   },
-  "sidebar": "docs"
+  "sidebar": "docs",
+  "previous": {
+    "title": "Trie",
+    "permalink": "/interview/docs/data-structures/trie"
+  }
 }

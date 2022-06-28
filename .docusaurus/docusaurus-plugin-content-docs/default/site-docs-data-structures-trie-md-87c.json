@@ -1,0 +1,27 @@
+{
+  "unversionedId": "data-structures/trie",
+  "id": "data-structures/trie",
+  "title": "Trie",
+  "description": "This will cover the most of the topics that will be part of the Trie.",
+  "source": "@site/docs/data-structures/trie.md",
+  "sourceDirName": "data-structures",
+  "slug": "/data-structures/trie",
+  "permalink": "/interview/docs/data-structures/trie",
+  "draft": false,
+  "tags": [],
+  "version": "current",
+  "frontMatter": {
+    "tree_title": "Trie",
+    "description": "This will cover the most of the topics that will be part of the Trie.",
+    "last_modified": "2022-06-08T16:35:30.353Z"
+  },
+  "sidebar": "docs",
+  "previous": {
+    "title": "Tree",
+    "permalink": "/interview/docs/data-structures/tree"
+  },
+  "next": {
+    "title": "Design Patterns",
+    "permalink": "/interview/docs/design-patterns/"
+  }
+}

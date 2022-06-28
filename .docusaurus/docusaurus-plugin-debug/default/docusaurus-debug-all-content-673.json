@@ -8,14 +8,523 @@
           "banner": null,
           "badge": false,
           "className": "docs-version-current",
-          "path": "/docs",
-          "tagsPath": "/docs/tags",
+          "path": "/interview/docs",
+          "tagsPath": "/interview/docs/tags",
           "isLast": true,
           "routePriority": -1,
-          "sidebarFilePath": "C:\\Users\\shyam\\Desktop\\comp-labs-website-main\\comp-labs-website-main\\sidebars.js",
-          "contentPath": "C:\\Users\\shyam\\Desktop\\comp-labs-website-main\\comp-labs-website-main\\docs",
-          "contentPathLocalized": "C:\\Users\\shyam\\Desktop\\comp-labs-website-main\\comp-labs-website-main\\i18n\\en\\docusaurus-plugin-content-docs\\current",
+          "sidebarFilePath": "C:\\Users\\shyam\\Desktop\\Self Projects\\interview\\sidebars.js",
+          "contentPath": "C:\\Users\\shyam\\Desktop\\Self Projects\\interview\\docs",
+          "contentPathLocalized": "C:\\Users\\shyam\\Desktop\\Self Projects\\interview\\i18n\\en\\docusaurus-plugin-content-docs\\current",
           "docs": [
+            {
+              "unversionedId": "data-structures/algorithms",
+              "id": "data-structures/algorithms",
+              "title": "Algorithms",
+              "description": "This will cover the most of the topics that will be part of the Algorithms.",
+              "source": "@site/docs/data-structures/algorithms.md",
+              "sourceDirName": "data-structures",
+              "slug": "/data-structures/algorithms",
+              "permalink": "/interview/docs/data-structures/algorithms",
+              "draft": false,
+              "tags": [],
+              "version": "current",
+              "frontMatter": {
+                "tree_title": "Algorithms",
+                "description": "This will cover the most of the topics that will be part of the Algorithms.",
+                "last_modified": "2022-06-08T16:35:30.353Z"
+              },
+              "sidebar": "docs",
+              "previous": {
+                "title": "Data Structures",
+                "permalink": "/interview/docs/data-structures/"
+              },
+              "next": {
+                "title": "Arrays",
+                "permalink": "/interview/docs/data-structures/arrays"
+              }
+            },
+            {
+              "unversionedId": "data-structures/arrays",
+              "id": "data-structures/arrays",
+              "title": "Arrays",
+              "description": "This will cover the most of the topics that will be part of the Arrays.",
+              "source": "@site/docs/data-structures/arrays.md",
+              "sourceDirName": "data-structures",
+              "slug": "/data-structures/arrays",
+              "permalink": "/interview/docs/data-structures/arrays",
+              "draft": false,
+              "tags": [],
+              "version": "current",
+              "frontMatter": {
+                "tree_title": "Arrays",
+                "description": "This will cover the most of the topics that will be part of the Arrays.",
+                "last_modified": "2022-06-08T16:35:30.353Z"
+              },
+              "sidebar": "docs",
+              "previous": {
+                "title": "Algorithms",
+                "permalink": "/interview/docs/data-structures/algorithms"
+              },
+              "next": {
+                "title": "Bit Manipulation",
+                "permalink": "/interview/docs/data-structures/bit-manipulation"
+              }
+            },
+            {
+              "unversionedId": "data-structures/bit-manipulation",
+              "id": "data-structures/bit-manipulation",
+              "title": "Bit Manipulation",
+              "description": "This will cover the most of the topics that will be part of the Bit Manipulation.",
+              "source": "@site/docs/data-structures/bit-manipulation.md",
+              "sourceDirName": "data-structures",
+              "slug": "/data-structures/bit-manipulation",
+              "permalink": "/interview/docs/data-structures/bit-manipulation",
+              "draft": false,
+              "tags": [],
+              "version": "current",
+              "frontMatter": {
+                "tree_title": "Bit Manipulation",
+                "description": "This will cover the most of the topics that will be part of the Bit Manipulation.",
+                "last_modified": "2022-06-08T15:36:32.363Z"
+              },
+              "sidebar": "docs",
+              "previous": {
+                "title": "Arrays",
+                "permalink": "/interview/docs/data-structures/arrays"
+              },
+              "next": {
+                "title": "Common Problems",
+                "permalink": "/interview/docs/data-structures/common-problems"
+              }
+            },
+            {
+              "unversionedId": "data-structures/common-problems",
+              "id": "data-structures/common-problems",
+              "title": "Common Problems",
+              "description": "This will cover the most of the topics that will be part of the Common Problems.",
+              "source": "@site/docs/data-structures/common-problems.md",
+              "sourceDirName": "data-structures",
+              "slug": "/data-structures/common-problems",
+              "permalink": "/interview/docs/data-structures/common-problems",
+              "draft": false,
+              "tags": [],
+              "version": "current",
+              "frontMatter": {
+                "tree_title": "Common Problems",
+                "description": "This will cover the most of the topics that will be part of the Common Problems.",
+                "last_modified": "2022-06-08T15:36:32.363Z"
+              },
+              "sidebar": "docs",
+              "previous": {
+                "title": "Bit Manipulation",
+                "permalink": "/interview/docs/data-structures/bit-manipulation"
+              },
+              "next": {
+                "title": "Comparators",
+                "permalink": "/interview/docs/data-structures/comparators"
+              }
+            },
+            {
+              "unversionedId": "data-structures/comparators",
+              "id": "data-structures/comparators",
+              "title": "Comparators",
+              "description": "This will cover the most of the topics that will be part of the Comparators.",
+              "source": "@site/docs/data-structures/comparators.md",
+              "sourceDirName": "data-structures",
+              "slug": "/data-structures/comparators",
+              "permalink": "/interview/docs/data-structures/comparators",
+              "draft": false,
+              "tags": [],
+              "version": "current",
+              "frontMatter": {
+                "tree_title": "Comparators",
+                "description": "This will cover the most of the topics that will be part of the Comparators.",
+                "last_modified": "2022-06-08T15:36:32.363Z"
+              },
+              "sidebar": "docs",
+              "previous": {
+                "title": "Common Problems",
+                "permalink": "/interview/docs/data-structures/common-problems"
+              },
+              "next": {
+                "title": "Complexity",
+                "permalink": "/interview/docs/data-structures/complexity"
+              }
+            },
+            {
+              "unversionedId": "data-structures/complexity",
+              "id": "data-structures/complexity",
+              "title": "Complexity",
+              "description": "This will cover the most of the topics that will be part of the Complexity.",
+              "source": "@site/docs/data-structures/complexity.md",
+              "sourceDirName": "data-structures",
+              "slug": "/data-structures/complexity",
+              "permalink": "/interview/docs/data-structures/complexity",
+              "draft": false,
+              "tags": [],
+              "version": "current",
+              "frontMatter": {
+                "tree_title": "Complexity",
+                "description": "This will cover the most of the topics that will be part of the Complexity.",
+                "last_modified": "2022-06-08T15:36:32.363Z"
+              },
+              "sidebar": "docs",
+              "previous": {
+                "title": "Comparators",
+                "permalink": "/interview/docs/data-structures/comparators"
+              },
+              "next": {
+                "title": "Deque (Doubly Ended Queue)",
+                "permalink": "/interview/docs/data-structures/dequeue"
+              }
+            },
+            {
+              "unversionedId": "data-structures/data-structures",
+              "id": "data-structures/data-structures",
+              "title": "Data Structures",
+              "description": "Low level definition of terms used in data structures along with their snippets.",
+              "source": "@site/docs/data-structures/data-structures.md",
+              "sourceDirName": "data-structures",
+              "slug": "/data-structures/",
+              "permalink": "/interview/docs/data-structures/",
+              "draft": false,
+              "tags": [],
+              "version": "current",
+              "frontMatter": {
+                "tree_title": "Data Structures",
+                "description": "Low level definition of terms used in data structures along with their snippets.",
+                "last_modified": "2022-06-28T17:13:31.133Z"
+              },
+              "sidebar": "docs",
+              "next": {
+                "title": "Algorithms",
+                "permalink": "/interview/docs/data-structures/algorithms"
+              }
+            },
+            {
+              "unversionedId": "data-structures/dequeue",
+              "id": "data-structures/dequeue",
+              "title": "Deque (Doubly Ended Queue)",
+              "description": "This will cover the most of the topics that will be part of the Deque.",
+              "source": "@site/docs/data-structures/dequeue.md",
+              "sourceDirName": "data-structures",
+              "slug": "/data-structures/dequeue",
+              "permalink": "/interview/docs/data-structures/dequeue",
+              "draft": false,
+              "tags": [],
+              "version": "current",
+              "frontMatter": {
+                "tree_title": "Deque",
+                "description": "This will cover the most of the topics that will be part of the Deque.",
+                "last_modified": "2022-06-08T15:36:32.363Z"
+              },
+              "sidebar": "docs",
+              "previous": {
+                "title": "Complexity",
+                "permalink": "/interview/docs/data-structures/complexity"
+              },
+              "next": {
+                "title": "DFS (Depth First Search)",
+                "permalink": "/interview/docs/data-structures/dfs"
+              }
+            },
+            {
+              "unversionedId": "data-structures/dfs",
+              "id": "data-structures/dfs",
+              "title": "DFS (Depth First Search)",
+              "description": "This will cover the most of the topics that will be part of the Depth First Search.",
+              "source": "@site/docs/data-structures/dfs.md",
+              "sourceDirName": "data-structures",
+              "slug": "/data-structures/dfs",
+              "permalink": "/interview/docs/data-structures/dfs",
+              "draft": false,
+              "tags": [],
+              "version": "current",
+              "frontMatter": {
+                "tree_title": "Depth First Search",
+                "description": "This will cover the most of the topics that will be part of the Depth First Search.",
+                "last_modified": "2022-06-08T15:36:32.363Z"
+              },
+              "sidebar": "docs",
+              "previous": {
+                "title": "Deque (Doubly Ended Queue)",
+                "permalink": "/interview/docs/data-structures/dequeue"
+              },
+              "next": {
+                "title": "Graph",
+                "permalink": "/interview/docs/data-structures/graph"
+              }
+            },
+            {
+              "unversionedId": "data-structures/graph",
+              "id": "data-structures/graph",
+              "title": "Graph",
+              "description": "This will cover the most of the topics that will be part of the Graph.",
+              "source": "@site/docs/data-structures/graph.md",
+              "sourceDirName": "data-structures",
+              "slug": "/data-structures/graph",
+              "permalink": "/interview/docs/data-structures/graph",
+              "draft": false,
+              "tags": [],
+              "version": "current",
+              "frontMatter": {
+                "tree_title": "Graph",
+                "description": "This will cover the most of the topics that will be part of the Graph.",
+                "last_modified": "2022-06-08T15:36:32.363Z"
+              },
+              "sidebar": "docs",
+              "previous": {
+                "title": "DFS (Depth First Search)",
+                "permalink": "/interview/docs/data-structures/dfs"
+              },
+              "next": {
+                "title": "Linked List",
+                "permalink": "/interview/docs/data-structures/linked-list"
+              }
+            },
+            {
+              "unversionedId": "data-structures/linked-list",
+              "id": "data-structures/linked-list",
+              "title": "Linked List",
+              "description": "This will cover the most of the topics that will be part of the linked list.",
+              "source": "@site/docs/data-structures/linked-list.md",
+              "sourceDirName": "data-structures",
+              "slug": "/data-structures/linked-list",
+              "permalink": "/interview/docs/data-structures/linked-list",
+              "draft": false,
+              "tags": [],
+              "version": "current",
+              "frontMatter": {
+                "tree_title": "Linked List",
+                "description": "This will cover the most of the topics that will be part of the linked list.",
+                "last_modified": "2022-06-08T15:36:32.363Z"
+              },
+              "sidebar": "docs",
+              "previous": {
+                "title": "Graph",
+                "permalink": "/interview/docs/data-structures/graph"
+              },
+              "next": {
+                "title": "Map",
+                "permalink": "/interview/docs/data-structures/map"
+              }
+            },
+            {
+              "unversionedId": "data-structures/map",
+              "id": "data-structures/map",
+              "title": "Map",
+              "description": "This will cover the most of the topics that will be part of the Map.",
+              "source": "@site/docs/data-structures/map.md",
+              "sourceDirName": "data-structures",
+              "slug": "/data-structures/map",
+              "permalink": "/interview/docs/data-structures/map",
+              "draft": false,
+              "tags": [],
+              "version": "current",
+              "frontMatter": {
+                "tree_title": "Map",
+                "description": "This will cover the most of the topics that will be part of the Map.",
+                "last_modified": "2022-06-08T15:36:32.363Z"
+              },
+              "sidebar": "docs",
+              "previous": {
+                "title": "Linked List",
+                "permalink": "/interview/docs/data-structures/linked-list"
+              },
+              "next": {
+                "title": "Math",
+                "permalink": "/interview/docs/data-structures/math"
+              }
+            },
+            {
+              "unversionedId": "data-structures/math",
+              "id": "data-structures/math",
+              "title": "Math",
+              "description": "This will cover the most of the topics that will be part of the Math.",
+              "source": "@site/docs/data-structures/math.md",
+              "sourceDirName": "data-structures",
+              "slug": "/data-structures/math",
+              "permalink": "/interview/docs/data-structures/math",
+              "draft": false,
+              "tags": [],
+              "version": "current",
+              "frontMatter": {
+                "tree_title": "Math",
+                "description": "This will cover the most of the topics that will be part of the Math.",
+                "last_modified": "2022-06-08T16:35:30.353Z"
+              },
+              "sidebar": "docs",
+              "previous": {
+                "title": "Map",
+                "permalink": "/interview/docs/data-structures/map"
+              },
+              "next": {
+                "title": "Priority Queue",
+                "permalink": "/interview/docs/data-structures/priority-queue"
+              }
+            },
+            {
+              "unversionedId": "data-structures/priority-queue",
+              "id": "data-structures/priority-queue",
+              "title": "Priority Queue",
+              "description": "This will cover the most of the topics that will be part of the priority queue.",
+              "source": "@site/docs/data-structures/priority-queue.md",
+              "sourceDirName": "data-structures",
+              "slug": "/data-structures/priority-queue",
+              "permalink": "/interview/docs/data-structures/priority-queue",
+              "draft": false,
+              "tags": [],
+              "version": "current",
+              "frontMatter": {
+                "tree_title": "Priority Queue",
+                "description": "This will cover the most of the topics that will be part of the priority queue.",
+                "last_modified": "2022-06-08T15:36:32.363Z"
+              },
+              "sidebar": "docs",
+              "previous": {
+                "title": "Math",
+                "permalink": "/interview/docs/data-structures/math"
+              },
+              "next": {
+                "title": "Search Algorithms",
+                "permalink": "/interview/docs/data-structures/search-algorithms"
+              }
+            },
+            {
+              "unversionedId": "data-structures/search-algorithms",
+              "id": "data-structures/search-algorithms",
+              "title": "Search Algorithms",
+              "description": "This will cover the most of the topics that will be part of the Search Algorithms.",
+              "source": "@site/docs/data-structures/search-algorithms.md",
+              "sourceDirName": "data-structures",
+              "slug": "/data-structures/search-algorithms",
+              "permalink": "/interview/docs/data-structures/search-algorithms",
+              "draft": false,
+              "tags": [],
+              "version": "current",
+              "frontMatter": {
+                "tree_title": "Search Algorithms",
+                "description": "This will cover the most of the topics that will be part of the Search Algorithms.",
+                "last_modified": "2022-06-08T16:53:14.531Z"
+              },
+              "sidebar": "docs",
+              "previous": {
+                "title": "Priority Queue",
+                "permalink": "/interview/docs/data-structures/priority-queue"
+              },
+              "next": {
+                "title": "Snippets",
+                "permalink": "/interview/docs/data-structures/snippets"
+              }
+            },
+            {
+              "unversionedId": "data-structures/snippets",
+              "id": "data-structures/snippets",
+              "title": "Snippets",
+              "description": "These are some of the snippets that I have created for the quick overview.",
+              "source": "@site/docs/data-structures/snippets.md",
+              "sourceDirName": "data-structures",
+              "slug": "/data-structures/snippets",
+              "permalink": "/interview/docs/data-structures/snippets",
+              "draft": false,
+              "tags": [],
+              "version": "current",
+              "frontMatter": {
+                "tree_title": "Snippets",
+                "description": "These are some of the snippets that I have created for the quick overview.",
+                "last_modified": "2022-06-08T15:36:32.363Z"
+              },
+              "sidebar": "docs",
+              "previous": {
+                "title": "Search Algorithms",
+                "permalink": "/interview/docs/data-structures/search-algorithms"
+              },
+              "next": {
+                "title": "Sorting Algorithms",
+                "permalink": "/interview/docs/data-structures/sorting-algorithms"
+              }
+            },
+            {
+              "unversionedId": "data-structures/sorting-algorithms",
+              "id": "data-structures/sorting-algorithms",
+              "title": "Sorting Algorithms",
+              "description": "This will cover the most of the topics that will be part of the Sorting Algorithms.",
+              "source": "@site/docs/data-structures/sorting-algorithms.md",
+              "sourceDirName": "data-structures",
+              "slug": "/data-structures/sorting-algorithms",
+              "permalink": "/interview/docs/data-structures/sorting-algorithms",
+              "draft": false,
+              "tags": [],
+              "version": "current",
+              "frontMatter": {
+                "tree_title": "Sorting Algorithms",
+                "description": "This will cover the most of the topics that will be part of the Sorting Algorithms.",
+                "last_modified": "2022-06-08T16:35:30.353Z"
+              },
+              "sidebar": "docs",
+              "previous": {
+                "title": "Snippets",
+                "permalink": "/interview/docs/data-structures/snippets"
+              },
+              "next": {
+                "title": "Tree",
+                "permalink": "/interview/docs/data-structures/tree"
+              }
+            },
+            {
+              "unversionedId": "data-structures/tree",
+              "id": "data-structures/tree",
+              "title": "Tree",
+              "description": "This will cover the most of the topics that will be part of the tree.",
+              "source": "@site/docs/data-structures/tree.md",
+              "sourceDirName": "data-structures",
+              "slug": "/data-structures/tree",
+              "permalink": "/interview/docs/data-structures/tree",
+              "draft": false,
+              "tags": [],
+              "version": "current",
+              "frontMatter": {
+                "tree_title": "Tree",
+                "description": "This will cover the most of the topics that will be part of the tree.",
+                "last_modified": "2022-06-08T15:36:32.363Z"
+              },
+              "sidebar": "docs",
+              "previous": {
+                "title": "Sorting Algorithms",
+                "permalink": "/interview/docs/data-structures/sorting-algorithms"
+              },
+              "next": {
+                "title": "Trie",
+                "permalink": "/interview/docs/data-structures/trie"
+              }
+            },
+            {
+              "unversionedId": "data-structures/trie",
+              "id": "data-structures/trie",
+              "title": "Trie",
+              "description": "This will cover the most of the topics that will be part of the Trie.",
+              "source": "@site/docs/data-structures/trie.md",
+              "sourceDirName": "data-structures",
+              "slug": "/data-structures/trie",
+              "permalink": "/interview/docs/data-structures/trie",
+              "draft": false,
+              "tags": [],
+              "version": "current",
+              "frontMatter": {
+                "tree_title": "Trie",
+                "description": "This will cover the most of the topics that will be part of the Trie.",
+                "last_modified": "2022-06-08T16:35:30.353Z"
+              },
+              "sidebar": "docs",
+              "previous": {
+                "title": "Tree",
+                "permalink": "/interview/docs/data-structures/tree"
+              },
+              "next": {
+                "title": "Design Patterns",
+                "permalink": "/interview/docs/design-patterns/"
+              }
+            },
             {
               "unversionedId": "design-patterns/design-patterns",
               "id": "design-patterns/design-patterns",
@@ -24,7 +533,7 @@
               "source": "@site/docs/design-patterns/design-patterns.md",
               "sourceDirName": "design-patterns",
               "slug": "/design-patterns/",
-              "permalink": "/docs/design-patterns/",
+              "permalink": "/interview/docs/design-patterns/",
               "draft": false,
               "tags": [],
               "version": "current",
@@ -33,12 +542,100 @@
                 "description": "Low level definition of terms used in design patterns.",
                 "last_modified": "2022-06-21T00:20:02.202Z"
               },
-              "sidebar": "docs"
+              "sidebar": "docs",
+              "previous": {
+                "title": "Trie",
+                "permalink": "/interview/docs/data-structures/trie"
+              }
             }
           ],
           "drafts": [],
           "sidebars": {
             "docs": [
+              {
+                "type": "category",
+                "label": "Data Structures",
+                "collapsible": true,
+                "collapsed": true,
+                "items": [
+                  {
+                    "type": "doc",
+                    "id": "data-structures/algorithms"
+                  },
+                  {
+                    "type": "doc",
+                    "id": "data-structures/arrays"
+                  },
+                  {
+                    "type": "doc",
+                    "id": "data-structures/bit-manipulation"
+                  },
+                  {
+                    "type": "doc",
+                    "id": "data-structures/common-problems"
+                  },
+                  {
+                    "type": "doc",
+                    "id": "data-structures/comparators"
+                  },
+                  {
+                    "type": "doc",
+                    "id": "data-structures/complexity"
+                  },
+                  {
+                    "type": "doc",
+                    "id": "data-structures/dequeue"
+                  },
+                  {
+                    "type": "doc",
+                    "id": "data-structures/dfs"
+                  },
+                  {
+                    "type": "doc",
+                    "id": "data-structures/graph"
+                  },
+                  {
+                    "type": "doc",
+                    "id": "data-structures/linked-list"
+                  },
+                  {
+                    "type": "doc",
+                    "id": "data-structures/map"
+                  },
+                  {
+                    "type": "doc",
+                    "id": "data-structures/math"
+                  },
+                  {
+                    "type": "doc",
+                    "id": "data-structures/priority-queue"
+                  },
+                  {
+                    "type": "doc",
+                    "id": "data-structures/search-algorithms"
+                  },
+                  {
+                    "type": "doc",
+                    "id": "data-structures/snippets"
+                  },
+                  {
+                    "type": "doc",
+                    "id": "data-structures/sorting-algorithms"
+                  },
+                  {
+                    "type": "doc",
+                    "id": "data-structures/tree"
+                  },
+                  {
+                    "type": "doc",
+                    "id": "data-structures/trie"
+                  }
+                ],
+                "link": {
+                  "type": "doc",
+                  "id": "data-structures/data-structures"
+                }
+              },
               {
                 "type": "doc",
                 "label": "Design Patterns",
@@ -56,7 +653,7 @@
       "blogPosts": [],
       "blogListPaginated": [],
       "blogTags": {},
-      "blogTagsListPath": "/blog/tags",
+      "blogTagsListPath": "/interview/blog/tags",
       "blogTagsPaginated": []
     }
   },
@@ -64,7 +661,7 @@
     "default": [
       {
         "type": "jsx",
-        "permalink": "/",
+        "permalink": "/interview/",
         "source": "@site/src/pages/index.jsx"
       }
     ]

@@ -1,0 +1,27 @@
+{
+  "unversionedId": "data-structures/complexity",
+  "id": "data-structures/complexity",
+  "title": "Complexity",
+  "description": "This will cover the most of the topics that will be part of the Complexity.",
+  "source": "@site/docs/data-structures/complexity.md",
+  "sourceDirName": "data-structures",
+  "slug": "/data-structures/complexity",
+  "permalink": "/interview/docs/data-structures/complexity",
+  "draft": false,
+  "tags": [],
+  "version": "current",
+  "frontMatter": {
+    "tree_title": "Complexity",
+    "description": "This will cover the most of the topics that will be part of the Complexity.",
+    "last_modified": "2022-06-08T15:36:32.363Z"
+  },
+  "sidebar": "docs",
+  "previous": {
+    "title": "Comparators",
+    "permalink": "/interview/docs/data-structures/comparators"
+  },
+  "next": {
+    "title": "Deque (Doubly Ended Queue)",
+    "permalink": "/interview/docs/data-structures/dequeue"
+  }
+}
