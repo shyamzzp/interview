@@ -4,7 +4,13 @@ description: This will cover the most of the topics that will be part of the Com
 last_modified: 2022-06-08T15:36:32.3632
 ---
 
+import Tabs from '@theme/Tabs';
+import TabItem from '@theme/TabItem';
+
 # Common Problems
+
+
+
 
 ## Priniting the combination of an array of particular size.
 
@@ -329,3 +335,89 @@ public class Solution {
     }
 }
 ```
+
+
+## Trapping Rain Water
+
+### Problem Statement
+![](2022-06-28-23-16-42.png)
+
+<div class="section-container pl0 pr0">
+<div class="section-item pl0">
+
+![](2022-06-28-23-20-01.png)
+
+</div>
+<div class="section-item">
+
+```java
+Calculate maxLeft and maxRight for each row.
+Then, for each row, find the Math.min of the two for every index and subtract it from the current index height.
+
+Math.min(maxLeft[i], maxRight[i]) - height[i] is the maximum water that can be trapped in the ith row.
+
+```
+</div>
+</div>
+
+### Solution
+
+<Tabs>
+  <TabItem value="method-1" label="Method 1 - Extra Space" default>
+
+``` java
+public int trap(int[] height) {
+    int n = height.length;
+    if (n <= 2) return 0;
+    // pre-compute
+    int[] leftMax = new int[n];
+    int[] rightMax = new int[n];
+    leftMax[0] = height[0]; // init
+    rightMax[n - 1] = height[n - 1];
+    for (int i = 1, j = n - 2; i < n; ++i, --j) {
+        leftMax[i] = Math.max(leftMax[i - 1], height[i]);
+        rightMax[j] = Math.max(rightMax[j + 1], height[j]);
+    }
+    // water
+    int totalWater = 0;
+    for (int k = 1; k < n - 1; ++k) { // do not consider the first and the last places
+        int water = Math.min(leftMax[k - 1], rightMax[k + 1]) - height[k];
+        totalWater += (water > 0) ? water : 0;
+    }
+    return totalWater;
+}
+// TC : O(n)
+// SC : O(n)
+```
+  </TabItem>
+  <TabItem value="method-2" label="Method 2 - No Space">
+
+``` java
+public int trap(int[] height) {
+    if (height.length==0) return 0; 
+    int left = 0, right = height.length-1; 
+    int leftMax=0, rightMax=0; 
+    int ans = 0; 
+    while (left < right) {
+        if (height[left] > leftMax) leftMax = height[left]; 
+        if (height[right] > rightMax) rightMax = height[right];
+        if (leftMax < rightMax) {
+            ans += Math.max(0, leftMax-height[left]); 
+            left++; 
+        } else {
+            ans += Math.max(0, rightMax-height[right]); 
+            right--; 
+        }
+    }
+    return ans; 
+}
+// TC : O(n)
+// SC : O(1)
+```
+  </TabItem>
+</Tabs>
+
+## References
+
+- <https://www.youtube.com/watch?v=ZI2z5pq0TqA&t=1229s>
+- <https://leetcode.com/problems/trapping-rain-water/>

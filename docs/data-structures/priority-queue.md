@@ -6,21 +6,27 @@ last_modified: 2022-06-08T15:36:32.3632
 
 # Priority Queue
 
+<div class="section-container pl0 pr0">
+<div class="section-item pl0">
+
 ### Min Heap (Default)
 
-```java showLineNumbers
-class Solution {
-    PriorityQueue<Integer> queue = new PriorityQueue<>();
-}
+```java
+PriorityQueue<Integer> queue = new PriorityQueue<>();
 ```
+</div>
+<div class="section-item">
 
 ### Max Heap
 
-```java showLineNumbers
-class Solution {
-    PriorityQueue<Integer> queue = new PriorityQueue<>(Collections.reverseOrder());
-}
+```java
+PriorityQueue<Integer> queue = new PriorityQueue<>(Collections.reverseOrder());
 ```
+</div>
+</div>
+
+
+
 
 ## Operations and Complexities
 

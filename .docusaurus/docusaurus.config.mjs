@@ -478,10 +478,6 @@ export default {
               "to": "/docs/data-structures/bit-manipulation"
             },
             {
-              "label": "Common Problems",
-              "to": "/docs/data-structures/common-problems"
-            },
-            {
               "label": "Comparators",
               "to": "/docs/data-structures/comparators"
             },
@@ -539,6 +535,10 @@ export default {
             {
               "label": "Common Algorithms",
               "to": "/docs/data-structures/algorithms"
+            },
+            {
+              "label": "Common Problems",
+              "to": "/docs/data-structures/common-problems"
             },
             {
               "label": "Search Algorithms",

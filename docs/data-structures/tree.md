@@ -8,9 +8,13 @@ last_modified: 2022-06-08T15:36:32.3632
 
 ## Tree Traversal - Inorder, Preorder and Postorder
 
+
+<div class="section-container pl0 pr0">
+<div class="section-item pl0">
+
 ### Pre-order Traversal
 
-```java showLineNumbers
+```java
 class Solution {
     void preorder(Node node) {
         if (node == null) return;
@@ -23,10 +27,12 @@ class Solution {
     }
 }
 ```
+</div>
+<div class="section-item">
 
 ### In-order Traversal
 
-```java showLineNumbers
+```java
 class Solution {
     void inorder(Node node) {
         if (node == null) return;
@@ -39,6 +45,11 @@ class Solution {
     }
 }
 ```
+</div>
+</div>
+
+
+
 
 ### Post-order Traversal
 

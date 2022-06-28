@@ -6,13 +6,17 @@ last_modified: 2022-06-08T15:36:32.3632
 
 # Complexity
 
-## Below are the Big O performance of common functions of different Java Collections.
+## Big O performance - Java Collections.
+
+### List
 
 | List                 | Add  | Remove | Get  | Contains | Next | Data Structure |
 | -------------------- | ---- | ------ | ---- | -------- | ---- | -------------- |
 | ArrayList            | O(1) | O(n)   | O(1) | O(n)     | O(1) | Array          |
 | LinkedList           | O(1) | O(1)   | O(n) | O(n)     | O(1) | Linked List    |
 | CopyOnWriteArrayList | O(n) | O(n)   | O(1) | O(n)     | O(1) | Array          |
+
+### Set
 
 | Set                   | Add      | Remove   | Contains | Next     | Size | Data Structure           |
 | --------------------- | -------- | -------- | -------- | -------- | ---- | ------------------------ |
@@ -23,6 +27,8 @@ last_modified: 2022-06-08T15:36:32.3632
 | CopyOnWriteArraySet   | O(n)     | O(n)     | O(n)     | O(1)     | O(1) | Array                    |
 | ConcurrentSkipListSet | O(log n) | O(log n) | O(log n) | O(1)     | O(n) | Skip List                |
 
+
+### Queue
 | Queue                   | Offer    | Peak | Poll     | Remove | Size | Data Structure |
 | ----------------------- | -------- | ---- | -------- | ------ | ---- | -------------- |
 | PriorityQueue           | O(log n) | O(1) | O(log n) | O(n)   | O(1) | Priority Heap  |
@@ -35,6 +41,8 @@ last_modified: 2022-06-08T15:36:32.3632
 | DelayQueue              | O(log n) | O(1) | O(log n) | O(n)   | O(1) | Priority Heap  |
 | LinkedBlockingQueue     | O(1)     | O(1) | O(1)     | O(n)   | O(1) | Linked List    |
 
+
+### Map
 | Map                   | Get      | ContainsKey | Next     | Data Structure           |
 | --------------------- | -------- | ----------- | -------- | ------------------------ |
 | HashMap               | O(1)     | O(1)        | O(h / n) | Hash Table               |

@@ -22,9 +22,12 @@ public class Solution {
 
 ### Arrays Initialized with a Size and Values
 
+<div class="section-container pl0 pr0">
+<div class="section-item pl0">
+
 #### Method 1 - Using a Loop
 
-```java showLineNumbers
+```java
 public class Solution {
     public static void main(String[] args){
         int[] arr = new int[5];
@@ -33,10 +36,12 @@ public class Solution {
     }
 }
 ```
+</div>
+<div class="section-item">
 
 #### Method 2 - In-built Function
 
-```java showLineNumbers
+```java
 public class Solution {
     public static void main(String[] args){
         int defaultValue = 0;
@@ -45,6 +50,11 @@ public class Solution {
     }
 }
 ```
+</div>
+</div>
+
+
+
 
 ### Dynamic Array
 
@@ -58,9 +68,12 @@ public class Solution {
 
 ### Convert Collection (List, ArrayList) to Array
 
+<div class="section-container pl0 pr0">
+<div class="section-item pl0">
+
 #### Method - Iterative Method
 
-```java showLineNumbers
+```java
 public class Solution {
     public static void main(String[] args){
         List<Integer> list = new ArrayList<Integer>();
@@ -72,10 +85,12 @@ public class Solution {
     }
 }
 ```
+</div>
+<div class="section-item">
 
 #### Method - In-built Function
 
-```java showLineNumbers
+```java
 public class Solution {
     public static void main(String[] args){
         List<Integer> list = new ArrayList<Integer>();
@@ -84,6 +99,11 @@ public class Solution {
     }
 }
 ```
+</div>
+</div>
+
+
+
 
 ### Convert Map to Array
 
@@ -298,9 +318,12 @@ public class Solution {
 
 ### In-place Reverse
 
+<div class="section-container pl0 pr0">
+<div class="section-item pl0">
+
 #### Method 1 - Cutting to middle and reverse two halves.
 
-```java showLineNumbers
+```java
 public class Solution {
     public static void main(String[] args){
         int[] arr = new int[]{1,2,3,4,5};
@@ -315,10 +338,12 @@ public class Solution {
 // Space Complexity: O(1)
 
 ```
+</div>
+<div class="section-item">
 
 #### Method 2 - Two Pointers
 
-```java showLineNumbers
+```java
 public class Solution {
     public static void main(String[] args){
         int[] arr = new int[]{1,2,3,4,5};
@@ -337,6 +362,8 @@ public class Solution {
 // Space Complexity: O(1)
 
 ```
+</div>
+</div>
 
 ### Covers
 

@@ -6,7 +6,7 @@ last_modified: 2022-06-08T15:36:32.3632
 
 # Bit Manipulation
 
-## ✅ XOR Definition
+## XOR Definition
 
 A number XOR itself will become 0, any number XOR with 0 will stay unchanged.
 
@@ -23,7 +23,7 @@ class Solution {
 }
 ```
 
-## ✅ Power of Two
+## Power of Two
 
 Given an integer `n`, return `true` if it is a power of two. Otherwise, return `false`.
 An integer `n` is a power of two, if there exists an integer `x` such that `n == 2^x`.
@@ -44,7 +44,7 @@ class Solution {
 }
 ```
 
-## ✅ Single Number
+## Single Number
 
 Given an integer array `nums` where every element appears **three times** except for one, 
 which appears **exactly once**. Find the single element and return it.

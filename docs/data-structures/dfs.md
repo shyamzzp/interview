@@ -17,7 +17,12 @@ last_modified: 2022-06-08T15:36:32.3632
 ➡️ The only difference is, the first one uses Stack which you can visualize better <br /> and for the second case, how the internal stack is used. <br/>
 ➡️ Both are the In-order Traversal of a Binary Tree.<br/>
 
-```java showLineNumbers
+
+<div class="section-container pl0 pr0">
+<div class="section-item pl0">
+
+### Using Stack
+```java
 public class Solution{
     public void dfs(Node root){
         Stack<Node> stack = new Stack<>();
@@ -35,8 +40,11 @@ public class Solution{
     }
 }
 ```
+</div>
+<div class="section-item">
 
-```java showLineNumbers
+### Using Recursion
+```java
 public class Solution{
     public void dfs(Node root){
         if(root == null) return;
@@ -47,6 +55,11 @@ public class Solution{
     }
 }
 ```
+</div>
+</div>
+
+
+
 
 ## Common Problems (Frequently Asked Questions)
 

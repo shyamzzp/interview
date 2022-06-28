@@ -96,7 +96,7 @@ table {
 }
 
 img {
-  border-radius: 20px;
+  border-radius: 10px;
 }
 
 .isVisible {
@@ -632,4 +632,9 @@ mark {
   background-color: #b58b36;
   color: #fff;
   margin-right: 5px;
+}
+
+.tabs__item{
+  padding-top: 5px;
+  padding-bottom: 5px;
 }
