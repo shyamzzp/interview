@@ -1,0 +1,25 @@
+{
+  "unversionedId": "comp-labs-mail/clmail",
+  "id": "comp-labs-mail/clmail",
+  "title": "Introduction",
+  "description": "Hello!",
+  "source": "@site/docs/comp-labs-mail/index.mdx",
+  "sourceDirName": "comp-labs-mail",
+  "slug": "/comp-labs-mail/",
+  "permalink": "/docs/comp-labs-mail/",
+  "draft": false,
+  "editUrl": "https://github.com/shyamzzp/interview/interview/edit/main/docs/comp-labs-mail/index.mdx",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 1,
+  "frontMatter": {
+    "id": "clmail",
+    "sidebar_position": 1,
+    "title": "Introduction"
+  },
+  "sidebar": "docs",
+  "previous": {
+    "title": "Comp Labs Mail",
+    "permalink": "/docs/category/comp-labs-mail"
+  }
+}

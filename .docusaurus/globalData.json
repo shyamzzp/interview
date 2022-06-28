@@ -1,0 +1,40 @@
+{
+  "docusaurus-plugin-google-gtag": {
+    "default": {
+      "trackingID": "UA-203163469-1",
+      "anonymizeIP": true,
+      "id": "default"
+    }
+  },
+  "docusaurus-plugin-content-docs": {
+    "default": {
+      "path": "/docs",
+      "versions": [
+        {
+          "name": "current",
+          "label": "Next",
+          "isLast": true,
+          "path": "/docs",
+          "mainDocId": "design-patterns/design-patterns",
+          "docs": [
+            {
+              "id": "design-patterns/design-patterns",
+              "path": "/docs/design-patterns/",
+              "sidebar": "docs"
+            }
+          ],
+          "draftIds": [],
+          "sidebars": {
+            "docs": {
+              "link": {
+                "path": "/docs/design-patterns/",
+                "label": "Design Patterns"
+              }
+            }
+          }
+        }
+      ],
+      "breadcrumbs": true
+    }
+  }
+}

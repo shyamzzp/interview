@@ -1,0 +1,79 @@
+{
+  "docusaurus-plugin-content-docs": {
+    "default": {
+      "loadedVersions": [
+        {
+          "versionName": "current",
+          "label": "Next",
+          "banner": null,
+          "badge": false,
+          "className": "docs-version-current",
+          "path": "/docs",
+          "tagsPath": "/docs/tags",
+          "isLast": true,
+          "routePriority": -1,
+          "sidebarFilePath": "C:\\Users\\shyam\\Desktop\\comp-labs-website-main\\comp-labs-website-main\\sidebars.js",
+          "contentPath": "C:\\Users\\shyam\\Desktop\\comp-labs-website-main\\comp-labs-website-main\\docs",
+          "contentPathLocalized": "C:\\Users\\shyam\\Desktop\\comp-labs-website-main\\comp-labs-website-main\\i18n\\en\\docusaurus-plugin-content-docs\\current",
+          "docs": [
+            {
+              "unversionedId": "design-patterns/design-patterns",
+              "id": "design-patterns/design-patterns",
+              "title": "Design Patterns",
+              "description": "Low level definition of terms used in design patterns.",
+              "source": "@site/docs/design-patterns/design-patterns.md",
+              "sourceDirName": "design-patterns",
+              "slug": "/design-patterns/",
+              "permalink": "/docs/design-patterns/",
+              "draft": false,
+              "tags": [],
+              "version": "current",
+              "frontMatter": {
+                "tree_title": "Design Patterns",
+                "description": "Low level definition of terms used in design patterns.",
+                "last_modified": "2022-06-21T00:20:02.202Z"
+              },
+              "sidebar": "docs"
+            }
+          ],
+          "drafts": [],
+          "sidebars": {
+            "docs": [
+              {
+                "type": "doc",
+                "label": "Design Patterns",
+                "id": "design-patterns/design-patterns"
+              }
+            ]
+          }
+        }
+      ]
+    }
+  },
+  "docusaurus-plugin-content-blog": {
+    "default": {
+      "blogSidebarTitle": "All Posts",
+      "blogPosts": [],
+      "blogListPaginated": [],
+      "blogTags": {},
+      "blogTagsListPath": "/blog/tags",
+      "blogTagsPaginated": []
+    }
+  },
+  "docusaurus-plugin-content-pages": {
+    "default": [
+      {
+        "type": "jsx",
+        "permalink": "/",
+        "source": "@site/src/pages/index.jsx"
+      }
+    ]
+  },
+  "docusaurus-plugin-debug": {},
+  "docusaurus-plugin-google-gtag": {},
+  "docusaurus-theme-classic": {},
+  "docusaurus-plugin-pwa": {},
+  "docusaurus-theme-live-codeblock": {},
+  "docusaurus-bootstrap-plugin": {},
+  "docusaurus-mdx-fallback-plugin": {}
+}

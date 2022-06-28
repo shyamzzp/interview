@@ -1,0 +1,19 @@
+{
+  "unversionedId": "design-patterns/README",
+  "id": "design-patterns/README",
+  "title": "README",
+  "description": "-   Design Patterns",
+  "source": "@site/docs/design-patterns/README.md",
+  "sourceDirName": "design-patterns",
+  "slug": "/design-patterns/",
+  "permalink": "/docs/design-patterns/",
+  "draft": false,
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "docs",
+  "previous": {
+    "title": "Design Patterns",
+    "permalink": "/docs/design-patterns/"
+  }
+}

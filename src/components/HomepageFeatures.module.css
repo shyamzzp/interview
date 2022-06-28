@@ -1,0 +1,23 @@
+.features {
+  display: flex;
+  align-items: center;
+  padding: 2rem 0;
+  width: 100%;
+  /* background-image: url("/img/wave.svg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover; */
+}
+
+.featureSvg {
+  height: 200px;
+  width: 200px;
+}
+
+.indexCtas {
+  --ifm-button-size-multiplier: 1.6;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  margin-top: 24px;
+}
