@@ -1,0 +1,27 @@
+{
+  "unversionedId": "system-design/tinyurl",
+  "id": "system-design/tinyurl",
+  "title": "Tinyurl System Design",
+  "description": "System Design for application/web-app like Tinyurl.",
+  "source": "@site/docs/system-design/tinyurl.md",
+  "sourceDirName": "system-design",
+  "slug": "/system-design/tinyurl",
+  "permalink": "/interview/docs/system-design/tinyurl",
+  "draft": false,
+  "tags": [],
+  "version": "current",
+  "frontMatter": {
+    "tree_title": "Tinyurl System Design",
+    "description": "System Design for application/web-app like Tinyurl.",
+    "last_modified": "2022-06-23T22:16:53.165Z"
+  },
+  "sidebar": "docs",
+  "previous": {
+    "title": "Pastebin System Design",
+    "permalink": "/interview/docs/system-design/pastebin"
+  },
+  "next": {
+    "title": "Top 10 System Design Overview",
+    "permalink": "/interview/docs/system-design/top-10-system-design"
+  }
+}

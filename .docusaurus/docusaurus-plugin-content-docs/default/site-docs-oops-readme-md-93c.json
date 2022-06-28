@@ -1,0 +1,23 @@
+{
+  "unversionedId": "oops/README",
+  "id": "oops/README",
+  "title": "README",
+  "description": "-   OOPS in JavaScript",
+  "source": "@site/docs/oops/README.md",
+  "sourceDirName": "oops",
+  "slug": "/oops/",
+  "permalink": "/interview/docs/oops/",
+  "draft": false,
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "docs",
+  "previous": {
+    "title": "Design Patterns",
+    "permalink": "/interview/docs/design-patterns/"
+  },
+  "next": {
+    "title": "OOPS in JavaScript",
+    "permalink": "/interview/docs/oops/javascript-oops"
+  }
+}

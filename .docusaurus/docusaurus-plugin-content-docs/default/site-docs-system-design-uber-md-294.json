@@ -1,0 +1,23 @@
+{
+  "unversionedId": "system-design/uber",
+  "id": "system-design/uber",
+  "title": "Uber/Lyft System Design",
+  "description": "System Design for Uber/Lyft.",
+  "source": "@site/docs/system-design/uber.md",
+  "sourceDirName": "system-design",
+  "slug": "/system-design/uber",
+  "permalink": "/interview/docs/system-design/uber",
+  "draft": false,
+  "tags": [],
+  "version": "current",
+  "frontMatter": {
+    "tree_title": "Uber/Lyft System Design",
+    "description": "System Design for Uber/Lyft.",
+    "last_modified": "2022-06-25T15:13:29.132Z"
+  },
+  "sidebar": "docs",
+  "previous": {
+    "title": "Twitter System Design",
+    "permalink": "/interview/docs/system-design/twitter-system-design"
+  }
+}

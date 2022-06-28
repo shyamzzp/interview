@@ -104,19 +104,152 @@ export default {
     "prism": {
       "theme": {
         "plain": {
-          "color": "#393A34",
-          "backgroundColor": "#f6f8fa"
+          "backgroundColor": "#282c34",
+          "color": "#ffffff"
         },
         "styles": [
           {
             "types": [
-              "comment",
-              "prolog",
-              "doctype",
-              "cdata"
+              "attr-name"
             ],
             "style": {
-              "color": "#999988",
+              "color": "#c5a5c5"
+            }
+          },
+          {
+            "types": [
+              "attr-value"
+            ],
+            "style": {
+              "color": "#8dc891"
+            }
+          },
+          {
+            "types": [
+              "comment",
+              "block-comment",
+              "prolog",
+              "doctype",
+              "cdata",
+              "shebang"
+            ],
+            "style": {
+              "color": "#999999"
+            }
+          },
+          {
+            "types": [
+              "property",
+              "number",
+              "function-name",
+              "constant",
+              "symbol",
+              "deleted"
+            ],
+            "style": {
+              "color": "#5a9bcf"
+            }
+          },
+          {
+            "types": [
+              "boolean"
+            ],
+            "style": {
+              "color": "#ff8b50"
+            }
+          },
+          {
+            "types": [
+              "tag"
+            ],
+            "style": {
+              "color": "#fc929e"
+            }
+          },
+          {
+            "types": [
+              "string"
+            ],
+            "style": {
+              "color": "#8dc891"
+            }
+          },
+          {
+            "types": [
+              "punctuation"
+            ],
+            "style": {
+              "color": "#8dc891"
+            }
+          },
+          {
+            "types": [
+              "selector",
+              "char",
+              "builtin",
+              "inserted"
+            ],
+            "style": {
+              "color": "#D8DEE9"
+            }
+          },
+          {
+            "types": [
+              "function"
+            ],
+            "style": {
+              "color": "#79b6f2"
+            }
+          },
+          {
+            "types": [
+              "operator",
+              "entity",
+              "url",
+              "variable"
+            ],
+            "style": {
+              "color": "#d7deea"
+            }
+          },
+          {
+            "types": [
+              "keyword"
+            ],
+            "style": {
+              "color": "#c5a5c5"
+            }
+          },
+          {
+            "types": [
+              "at-rule",
+              "class-name"
+            ],
+            "style": {
+              "color": "#FAC863"
+            }
+          },
+          {
+            "types": [
+              "important"
+            ],
+            "style": {
+              "fontWeight": "400"
+            }
+          },
+          {
+            "types": [
+              "bold"
+            ],
+            "style": {
+              "fontWeight": "bold"
+            }
+          },
+          {
+            "types": [
+              "italic"
+            ],
+            "style": {
               "fontStyle": "italic"
             }
           },
@@ -127,173 +260,173 @@ export default {
             "style": {
               "opacity": 0.7
             }
-          },
-          {
-            "types": [
-              "string",
-              "attr-value"
-            ],
-            "style": {
-              "color": "#e3116c"
-            }
-          },
-          {
-            "types": [
-              "punctuation",
-              "operator"
-            ],
-            "style": {
-              "color": "#393A34"
-            }
-          },
-          {
-            "types": [
-              "entity",
-              "url",
-              "symbol",
-              "number",
-              "boolean",
-              "variable",
-              "constant",
-              "property",
-              "regex",
-              "inserted"
-            ],
-            "style": {
-              "color": "#36acaa"
-            }
-          },
-          {
-            "types": [
-              "atrule",
-              "keyword",
-              "attr-name",
-              "selector"
-            ],
-            "style": {
-              "color": "#00a4db"
-            }
-          },
-          {
-            "types": [
-              "function",
-              "deleted",
-              "tag"
-            ],
-            "style": {
-              "color": "#d73a49"
-            }
-          },
-          {
-            "types": [
-              "function-variable"
-            ],
-            "style": {
-              "color": "#6f42c1"
-            }
-          },
-          {
-            "types": [
-              "tag",
-              "selector",
-              "keyword"
-            ],
-            "style": {
-              "color": "#00009f"
-            }
           }
         ]
       },
       "darkTheme": {
         "plain": {
-          "color": "#F8F8F2",
-          "backgroundColor": "#282A36"
+          "backgroundColor": "#282c34",
+          "color": "#ffffff"
         },
         "styles": [
-          {
-            "types": [
-              "prolog",
-              "constant",
-              "builtin"
-            ],
-            "style": {
-              "color": "rgb(189, 147, 249)"
-            }
-          },
-          {
-            "types": [
-              "inserted",
-              "function"
-            ],
-            "style": {
-              "color": "rgb(80, 250, 123)"
-            }
-          },
-          {
-            "types": [
-              "deleted"
-            ],
-            "style": {
-              "color": "rgb(255, 85, 85)"
-            }
-          },
-          {
-            "types": [
-              "changed"
-            ],
-            "style": {
-              "color": "rgb(255, 184, 108)"
-            }
-          },
-          {
-            "types": [
-              "punctuation",
-              "symbol"
-            ],
-            "style": {
-              "color": "rgb(248, 248, 242)"
-            }
-          },
-          {
-            "types": [
-              "string",
-              "char",
-              "tag",
-              "selector"
-            ],
-            "style": {
-              "color": "rgb(255, 121, 198)"
-            }
-          },
-          {
-            "types": [
-              "keyword",
-              "variable"
-            ],
-            "style": {
-              "color": "rgb(189, 147, 249)",
-              "fontStyle": "italic"
-            }
-          },
-          {
-            "types": [
-              "comment"
-            ],
-            "style": {
-              "color": "rgb(98, 114, 164)"
-            }
-          },
           {
             "types": [
               "attr-name"
             ],
             "style": {
-              "color": "rgb(241, 250, 140)"
+              "color": "#c5a5c5"
+            }
+          },
+          {
+            "types": [
+              "attr-value"
+            ],
+            "style": {
+              "color": "#8dc891"
+            }
+          },
+          {
+            "types": [
+              "comment",
+              "block-comment",
+              "prolog",
+              "doctype",
+              "cdata",
+              "shebang"
+            ],
+            "style": {
+              "color": "#999999"
+            }
+          },
+          {
+            "types": [
+              "property",
+              "number",
+              "function-name",
+              "constant",
+              "symbol",
+              "deleted"
+            ],
+            "style": {
+              "color": "#5a9bcf"
+            }
+          },
+          {
+            "types": [
+              "boolean"
+            ],
+            "style": {
+              "color": "#ff8b50"
+            }
+          },
+          {
+            "types": [
+              "tag"
+            ],
+            "style": {
+              "color": "#fc929e"
+            }
+          },
+          {
+            "types": [
+              "string"
+            ],
+            "style": {
+              "color": "#8dc891"
+            }
+          },
+          {
+            "types": [
+              "punctuation"
+            ],
+            "style": {
+              "color": "#8dc891"
+            }
+          },
+          {
+            "types": [
+              "selector",
+              "char",
+              "builtin",
+              "inserted"
+            ],
+            "style": {
+              "color": "#D8DEE9"
+            }
+          },
+          {
+            "types": [
+              "function"
+            ],
+            "style": {
+              "color": "#79b6f2"
+            }
+          },
+          {
+            "types": [
+              "operator",
+              "entity",
+              "url",
+              "variable"
+            ],
+            "style": {
+              "color": "#d7deea"
+            }
+          },
+          {
+            "types": [
+              "keyword"
+            ],
+            "style": {
+              "color": "#c5a5c5"
+            }
+          },
+          {
+            "types": [
+              "at-rule",
+              "class-name"
+            ],
+            "style": {
+              "color": "#FAC863"
+            }
+          },
+          {
+            "types": [
+              "important"
+            ],
+            "style": {
+              "fontWeight": "400"
+            }
+          },
+          {
+            "types": [
+              "bold"
+            ],
+            "style": {
+              "fontWeight": "bold"
+            }
+          },
+          {
+            "types": [
+              "italic"
+            ],
+            "style": {
+              "fontStyle": "italic"
+            }
+          },
+          {
+            "types": [
+              "namespace"
+            ],
+            "style": {
+              "opacity": 0.7
             }
           }
         ]
       },
-      "additionalLanguages": [],
+      "additionalLanguages": [
+        "java"
+      ],
       "magicComments": [
         {
           "className": "theme-code-block-highlighted-line",
@@ -335,6 +468,124 @@ export default {
           "position": "right",
           "className": "header-github-link",
           "aria-label": "GitHub Repository"
+        },
+        {
+          "type": "dropdown",
+          "label": "Data Structures",
+          "position": "left",
+          "items": [
+            {
+              "label": "Algorithms",
+              "to": "/docs/data-structures/algorithms"
+            },
+            {
+              "label": "Arrays",
+              "to": "/docs/data-structures/arrays"
+            },
+            {
+              "label": "Bit Manipulation",
+              "to": "/docs/data-structures/bit-manipulation"
+            },
+            {
+              "label": "Common Problems",
+              "to": "/docs/data-structures/common-problems"
+            },
+            {
+              "label": "Comparators",
+              "to": "/docs/data-structures/comparators"
+            },
+            {
+              "label": "Complexity",
+              "to": "/docs/data-structures/complexity"
+            },
+            {
+              "label": "Deque",
+              "to": "/docs/data-structures/dequeue"
+            },
+            {
+              "label": "DFS",
+              "to": "/docs/data-structures/dfs"
+            },
+            {
+              "label": "Graph",
+              "to": "/docs/data-structures/graph"
+            },
+            {
+              "label": "Linked List",
+              "to": "/docs/data-structures/linked-list"
+            },
+            {
+              "label": "Map",
+              "to": "/docs/data-structures/map"
+            },
+            {
+              "label": "Math",
+              "to": "/docs/data-structures/math"
+            },
+            {
+              "label": "Priority Queue",
+              "to": "/docs/data-structures/priority-queue"
+            },
+            {
+              "label": "Search Algorithms",
+              "to": "/docs/data-structures/search-algorithms"
+            },
+            {
+              "label": "Snippets",
+              "to": "/docs/data-structures/snippets"
+            },
+            {
+              "label": "Sorting Algorithms",
+              "to": "/docs/data-structures/sorting-algorithms"
+            },
+            {
+              "label": "Tree",
+              "to": "/docs/data-structures/tree"
+            },
+            {
+              "label": "Trie",
+              "to": "/docs/data-structures/trie"
+            }
+          ]
+        },
+        {
+          "type": "dropdown",
+          "label": "System Design",
+          "position": "left",
+          "items": [
+            {
+              "label": "System Design Glossary",
+              "to": "/interview/docs/system-design/glossary"
+            },
+            {
+              "label": "Instagram System Design",
+              "to": "/interview/docs/system-design/instagram"
+            },
+            {
+              "label": "Netflix System Design",
+              "to": "/interview/docs/system-design/netflix"
+            },
+            {
+              "label": "Pastebin System Design",
+              "to": "/interview/docs/system-design/pastebin"
+            },
+            {
+              "label": "Tinyurl System Design",
+              "to": "/interview/docs/system-design/tinyurl"
+            },
+            {
+              "label": "Top 10 System Design Overview",
+              "to": "/interview/docs/system-design/top-10-system-design"
+            },
+            {
+              "label": "Twitter System Design",
+              "to": "/interview/docs/system-design/twitter-system-design"
+            },
+            {
+              "label": "Uber/Lyft System Design",
+              "to": "/interview/docs/system-design/uber"
+            }
+          ]
         }
       ]
     }

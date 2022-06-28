@@ -116,6 +116,101 @@
               "id": "design-patterns/design-patterns",
               "path": "/interview/docs/design-patterns/",
               "sidebar": "docs"
+            },
+            {
+              "id": "oops/javascript-oops",
+              "path": "/interview/docs/oops/javascript-oops",
+              "sidebar": "docs"
+            },
+            {
+              "id": "oops/oops",
+              "path": "/interview/docs/oops/",
+              "sidebar": "docs"
+            },
+            {
+              "id": "questions/educative-io-microsoft",
+              "path": "/interview/docs/questions/educative-io-microsoft",
+              "sidebar": "docs"
+            },
+            {
+              "id": "questions/geeksforgeeks-microsoft",
+              "path": "/interview/docs/questions/geeksforgeeks-microsoft",
+              "sidebar": "docs"
+            },
+            {
+              "id": "questions/leetcode-medium",
+              "path": "/interview/docs/questions/leetcode-medium",
+              "sidebar": "docs"
+            },
+            {
+              "id": "questions/questions",
+              "path": "/interview/docs/questions/",
+              "sidebar": "docs"
+            },
+            {
+              "id": "questions/studyplan-datastructure",
+              "path": "/interview/docs/questions/studyplan-datastructure",
+              "sidebar": "docs"
+            },
+            {
+              "id": "questions/studyplan-leetcode75",
+              "path": "/interview/docs/questions/studyplan-leetcode75",
+              "sidebar": "docs"
+            },
+            {
+              "id": "questions/top100-liked-leetcode",
+              "path": "/interview/docs/questions/top100-liked-leetcode",
+              "sidebar": "docs"
+            },
+            {
+              "id": "system-design/glossary",
+              "path": "/interview/docs/system-design/glossary",
+              "sidebar": "docs"
+            },
+            {
+              "id": "system-design/instagram",
+              "path": "/interview/docs/system-design/instagram",
+              "sidebar": "docs"
+            },
+            {
+              "id": "system-design/job-scheduling-system",
+              "path": "/interview/docs/system-design/job-scheduling-system",
+              "sidebar": "docs"
+            },
+            {
+              "id": "system-design/netflix",
+              "path": "/interview/docs/system-design/netflix",
+              "sidebar": "docs"
+            },
+            {
+              "id": "system-design/pastebin",
+              "path": "/interview/docs/system-design/pastebin",
+              "sidebar": "docs"
+            },
+            {
+              "id": "system-design/system-design",
+              "path": "/interview/docs/system-design/",
+              "sidebar": "docs"
+            },
+            {
+              "id": "system-design/tinyurl",
+              "path": "/interview/docs/system-design/tinyurl",
+              "sidebar": "docs"
+            },
+            {
+              "id": "system-design/top-10-system-design",
+              "path": "/interview/docs/system-design/top-10-system-design",
+              "sidebar": "docs"
+            },
+            {
+              "id": "system-design/twitter-system-design",
+              "path": "/interview/docs/system-design/twitter-system-design",
+              "sidebar": "docs"
+            },
+            {
+              "id": "system-design/uber",
+              "path": "/interview/docs/system-design/uber",
+              "sidebar": "docs"
             }
           ],
           "draftIds": [],

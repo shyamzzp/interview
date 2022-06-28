@@ -1,0 +1,27 @@
+{
+  "unversionedId": "questions/studyplan-leetcode75",
+  "id": "questions/studyplan-leetcode75",
+  "title": "Leetcode 75 🚧",
+  "description": "This will cover up the problems/questions from the Leetcode 75 - Study Plan.",
+  "source": "@site/docs/questions/studyplan-leetcode75.md",
+  "sourceDirName": "questions",
+  "slug": "/questions/studyplan-leetcode75",
+  "permalink": "/interview/docs/questions/studyplan-leetcode75",
+  "draft": false,
+  "tags": [],
+  "version": "current",
+  "frontMatter": {
+    "tree_title": "Leetcode 75 🚧",
+    "description": "This will cover up the problems/questions from the Leetcode 75 - Study Plan.",
+    "last_modified": "2022-06-22T12:03:49.349Z"
+  },
+  "sidebar": "docs",
+  "previous": {
+    "title": "Leetcode Data Structure 🚧",
+    "permalink": "/interview/docs/questions/studyplan-datastructure"
+  },
+  "next": {
+    "title": "Top 100 Liked on Leetcode 🚧",
+    "permalink": "/interview/docs/questions/top100-liked-leetcode"
+  }
+}

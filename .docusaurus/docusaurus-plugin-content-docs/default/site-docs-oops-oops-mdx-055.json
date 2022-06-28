@@ -1,0 +1,27 @@
+{
+  "unversionedId": "oops/oops",
+  "id": "oops/oops",
+  "title": "OOPS Concepts",
+  "description": "Object Oriented Concepts.",
+  "source": "@site/docs/oops/oops.mdx",
+  "sourceDirName": "oops",
+  "slug": "/oops/",
+  "permalink": "/interview/docs/oops/",
+  "draft": false,
+  "tags": [],
+  "version": "current",
+  "frontMatter": {
+    "tree_title": "OOPS Concepts",
+    "description": "Object Oriented Concepts.",
+    "last_modified": "2022-06-28T17:44:38.443Z"
+  },
+  "sidebar": "docs",
+  "previous": {
+    "title": "Design Patterns",
+    "permalink": "/interview/docs/design-patterns/"
+  },
+  "next": {
+    "title": "OOPS in JavaScript",
+    "permalink": "/interview/docs/oops/javascript-oops"
+  }
+}

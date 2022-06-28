@@ -136,11 +136,130 @@ module.exports = {
             className: "header-github-link",
             "aria-label": "GitHub Repository",
           },
+          {
+            type: "dropdown",
+            label: "Data Structures",
+            position: "left",
+            items: [
+              {
+                label: "Algorithms",
+                to: "/docs/data-structures/algorithms",
+              },
+              {
+                label: "Arrays",
+                to: "/docs/data-structures/arrays",
+              },
+              {
+                label: "Bit Manipulation",
+                to: "/docs/data-structures/bit-manipulation",
+              },
+              {
+                label: "Common Problems",
+                to: "/docs/data-structures/common-problems",
+              },
+              {
+                label: "Comparators",
+                to: "/docs/data-structures/comparators",
+              },
+              {
+                label: "Complexity",
+                to: "/docs/data-structures/complexity",
+              },
+              {
+                label: "Deque",
+                to: "/docs/data-structures/dequeue",
+              },
+              {
+                label: "DFS",
+                to: "/docs/data-structures/dfs",
+              },
+              {
+                label: "Graph",
+                to: "/docs/data-structures/graph",
+              },
+              {
+                label: "Linked List",
+                to: "/docs/data-structures/linked-list",
+              },
+              {
+                label: "Map",
+                to: "/docs/data-structures/map",
+              },
+              {
+                label: "Math",
+                to: "/docs/data-structures/math",
+              },
+              {
+                label: "Priority Queue",
+                to: "/docs/data-structures/priority-queue",
+              },
+              {
+                label: "Search Algorithms",
+                to: "/docs/data-structures/search-algorithms",
+              },
+              {
+                label: "Snippets",
+                to: "/docs/data-structures/snippets",
+              },
+              {
+                label: "Sorting Algorithms",
+                to: "/docs/data-structures/sorting-algorithms",
+              },
+              {
+                label: "Tree",
+                to: "/docs/data-structures/tree",
+              },
+              {
+                label: "Trie",
+                to: "/docs/data-structures/trie",
+              },
+            ],
+          },
+          {
+            type: "dropdown",
+            label: "System Design",
+            position: "left",
+            items: [
+              {
+                label: "System Design Glossary",
+                to: "/interview/docs/system-design/glossary",
+              },
+              {
+                label: "Instagram System Design",
+                to: "/interview/docs/system-design/instagram",
+              },
+              {
+                label: "Netflix System Design",
+                to: "/interview/docs/system-design/netflix",
+              },
+              {
+                label: "Pastebin System Design",
+                to: "/interview/docs/system-design/pastebin",
+              },
+              {
+                label: "Tinyurl System Design",
+                to: "/interview/docs/system-design/tinyurl",
+              },
+              {
+                label: "Top 10 System Design Overview",
+                to: "/interview/docs/system-design/top-10-system-design",
+              },
+              {
+                label: "Twitter System Design",
+                to: "/interview/docs/system-design/twitter-system-design",
+              },
+              {
+                label: "Uber/Lyft System Design",
+                to: "/interview/docs/system-design/uber",
+              },
+            ],
+          },
         ],
       },
       prism: {
-        theme: lightCodeTheme,
-        darkTheme: darkCodeTheme,
+        theme: require("prism-react-renderer/themes/oceanicNext"),
+        darkTheme: require("prism-react-renderer/themes/oceanicNext"),
+        additionalLanguages: ["java"],
       },
     }),
 };

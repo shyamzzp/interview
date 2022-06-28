@@ -19,5 +19,9 @@
   "previous": {
     "title": "Trie",
     "permalink": "/interview/docs/data-structures/trie"
+  },
+  "next": {
+    "title": "OOPS Concepts",
+    "permalink": "/interview/docs/oops/"
   }
 }

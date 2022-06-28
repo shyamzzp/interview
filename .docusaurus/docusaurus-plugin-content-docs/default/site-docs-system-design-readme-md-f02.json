@@ -1,0 +1,23 @@
+{
+  "unversionedId": "system-design/README",
+  "id": "system-design/README",
+  "title": "README",
+  "description": "-   System Design Glossary",
+  "source": "@site/docs/system-design/README.md",
+  "sourceDirName": "system-design",
+  "slug": "/system-design/",
+  "permalink": "/interview/docs/system-design/",
+  "draft": false,
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "docs",
+  "previous": {
+    "title": "Top 100 Liked on Leetcode 🚧",
+    "permalink": "/interview/docs/questions/top100-liked-leetcode"
+  },
+  "next": {
+    "title": "System Design Glossary",
+    "permalink": "/interview/docs/system-design/glossary"
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "unversionedId": "system-design/netflix",
+  "id": "system-design/netflix",
+  "title": "Netflix System Design",
+  "description": "System Design for Netflix.",
+  "source": "@site/docs/system-design/netflix.md",
+  "sourceDirName": "system-design",
+  "slug": "/system-design/netflix",
+  "permalink": "/interview/docs/system-design/netflix",
+  "draft": false,
+  "tags": [],
+  "version": "current",
+  "frontMatter": {
+    "tree_title": "Netflix System Design",
+    "description": "System Design for Netflix.",
+    "last_modified": "2022-06-19T18:54:23.542Z"
+  },
+  "sidebar": "docs",
+  "previous": {
+    "title": "Job Scheduling System",
+    "permalink": "/interview/docs/system-design/job-scheduling-system"
+  },
+  "next": {
+    "title": "Pastebin System Design",
+    "permalink": "/interview/docs/system-design/pastebin"
+  }
+}

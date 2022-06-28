@@ -1,0 +1,27 @@
+{
+  "unversionedId": "questions/geeksforgeeks-microsoft",
+  "id": "questions/geeksforgeeks-microsoft",
+  "title": "GeeksforGeeks-Microsoft",
+  "description": "This will cover up the problems/questions from the Microsoft GeeksforGeeks website.",
+  "source": "@site/docs/questions/geeksforgeeks-microsoft.md",
+  "sourceDirName": "questions",
+  "slug": "/questions/geeksforgeeks-microsoft",
+  "permalink": "/interview/docs/questions/geeksforgeeks-microsoft",
+  "draft": false,
+  "tags": [],
+  "version": "current",
+  "frontMatter": {
+    "tree_title": "GeeksforGeeks-Microsoft",
+    "description": "This will cover up the problems/questions from the Microsoft GeeksforGeeks website.",
+    "last_modified": "2022-06-22T12:03:49.349Z"
+  },
+  "sidebar": "docs",
+  "previous": {
+    "title": "Educative-Microsoft",
+    "permalink": "/interview/docs/questions/educative-io-microsoft"
+  },
+  "next": {
+    "title": "Leetcode-Medium 🚧",
+    "permalink": "/interview/docs/questions/leetcode-medium"
+  }
+}

@@ -39,7 +39,7 @@ export default [
   },
   {
     path: '/interview/docs',
-    component: ComponentCreator('/interview/docs', '297'),
+    component: ComponentCreator('/interview/docs', 'a3f'),
     routes: [
       {
         path: '/interview/docs/data-structures',
@@ -158,6 +158,120 @@ export default [
       {
         path: '/interview/docs/design-patterns',
         component: ComponentCreator('/interview/docs/design-patterns', '4b0'),
+        exact: true,
+        sidebar: "docs"
+      },
+      {
+        path: '/interview/docs/oops',
+        component: ComponentCreator('/interview/docs/oops', '6b8'),
+        exact: true,
+        sidebar: "docs"
+      },
+      {
+        path: '/interview/docs/oops/javascript-oops',
+        component: ComponentCreator('/interview/docs/oops/javascript-oops', '27b'),
+        exact: true,
+        sidebar: "docs"
+      },
+      {
+        path: '/interview/docs/questions',
+        component: ComponentCreator('/interview/docs/questions', '502'),
+        exact: true,
+        sidebar: "docs"
+      },
+      {
+        path: '/interview/docs/questions/educative-io-microsoft',
+        component: ComponentCreator('/interview/docs/questions/educative-io-microsoft', 'a15'),
+        exact: true,
+        sidebar: "docs"
+      },
+      {
+        path: '/interview/docs/questions/geeksforgeeks-microsoft',
+        component: ComponentCreator('/interview/docs/questions/geeksforgeeks-microsoft', '833'),
+        exact: true,
+        sidebar: "docs"
+      },
+      {
+        path: '/interview/docs/questions/leetcode-medium',
+        component: ComponentCreator('/interview/docs/questions/leetcode-medium', '151'),
+        exact: true,
+        sidebar: "docs"
+      },
+      {
+        path: '/interview/docs/questions/studyplan-datastructure',
+        component: ComponentCreator('/interview/docs/questions/studyplan-datastructure', 'f16'),
+        exact: true,
+        sidebar: "docs"
+      },
+      {
+        path: '/interview/docs/questions/studyplan-leetcode75',
+        component: ComponentCreator('/interview/docs/questions/studyplan-leetcode75', '3ef'),
+        exact: true,
+        sidebar: "docs"
+      },
+      {
+        path: '/interview/docs/questions/top100-liked-leetcode',
+        component: ComponentCreator('/interview/docs/questions/top100-liked-leetcode', '7f2'),
+        exact: true,
+        sidebar: "docs"
+      },
+      {
+        path: '/interview/docs/system-design',
+        component: ComponentCreator('/interview/docs/system-design', 'd5e'),
+        exact: true,
+        sidebar: "docs"
+      },
+      {
+        path: '/interview/docs/system-design/glossary',
+        component: ComponentCreator('/interview/docs/system-design/glossary', 'ccb'),
+        exact: true,
+        sidebar: "docs"
+      },
+      {
+        path: '/interview/docs/system-design/instagram',
+        component: ComponentCreator('/interview/docs/system-design/instagram', '9e3'),
+        exact: true,
+        sidebar: "docs"
+      },
+      {
+        path: '/interview/docs/system-design/job-scheduling-system',
+        component: ComponentCreator('/interview/docs/system-design/job-scheduling-system', '5f0'),
+        exact: true,
+        sidebar: "docs"
+      },
+      {
+        path: '/interview/docs/system-design/netflix',
+        component: ComponentCreator('/interview/docs/system-design/netflix', '691'),
+        exact: true,
+        sidebar: "docs"
+      },
+      {
+        path: '/interview/docs/system-design/pastebin',
+        component: ComponentCreator('/interview/docs/system-design/pastebin', 'e95'),
+        exact: true,
+        sidebar: "docs"
+      },
+      {
+        path: '/interview/docs/system-design/tinyurl',
+        component: ComponentCreator('/interview/docs/system-design/tinyurl', '041'),
+        exact: true,
+        sidebar: "docs"
+      },
+      {
+        path: '/interview/docs/system-design/top-10-system-design',
+        component: ComponentCreator('/interview/docs/system-design/top-10-system-design', '08c'),
+        exact: true,
+        sidebar: "docs"
+      },
+      {
+        path: '/interview/docs/system-design/twitter-system-design',
+        component: ComponentCreator('/interview/docs/system-design/twitter-system-design', 'b6e'),
+        exact: true,
+        sidebar: "docs"
+      },
+      {
+        path: '/interview/docs/system-design/uber',
+        component: ComponentCreator('/interview/docs/system-design/uber', '6a3'),
         exact: true,
         sidebar: "docs"
       }

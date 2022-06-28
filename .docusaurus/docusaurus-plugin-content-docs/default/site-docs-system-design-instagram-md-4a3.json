@@ -1,0 +1,27 @@
+{
+  "unversionedId": "system-design/instagram",
+  "id": "system-design/instagram",
+  "title": "Instagram System Design",
+  "description": "System Design for Instagram.",
+  "source": "@site/docs/system-design/instagram.md",
+  "sourceDirName": "system-design",
+  "slug": "/system-design/instagram",
+  "permalink": "/interview/docs/system-design/instagram",
+  "draft": false,
+  "tags": [],
+  "version": "current",
+  "frontMatter": {
+    "tree_title": "Instagram System Design",
+    "description": "System Design for Instagram.",
+    "last_modified": "2022-06-25T00:46:27.462Z"
+  },
+  "sidebar": "docs",
+  "previous": {
+    "title": "System Design Glossary",
+    "permalink": "/interview/docs/system-design/glossary"
+  },
+  "next": {
+    "title": "Job Scheduling System",
+    "permalink": "/interview/docs/system-design/job-scheduling-system"
+  }
+}

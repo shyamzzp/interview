@@ -1,0 +1,27 @@
+{
+  "unversionedId": "system-design/pastebin",
+  "id": "system-design/pastebin",
+  "title": "Pastebin System Design",
+  "description": "System Design text sharing web-applications like Pastebin.",
+  "source": "@site/docs/system-design/pastebin.md",
+  "sourceDirName": "system-design",
+  "slug": "/system-design/pastebin",
+  "permalink": "/interview/docs/system-design/pastebin",
+  "draft": false,
+  "tags": [],
+  "version": "current",
+  "frontMatter": {
+    "tree_title": "Pastebin System Design",
+    "description": "System Design text sharing web-applications like Pastebin.",
+    "last_modified": "2022-06-15T13:20:35.203Z"
+  },
+  "sidebar": "docs",
+  "previous": {
+    "title": "Netflix System Design",
+    "permalink": "/interview/docs/system-design/netflix"
+  },
+  "next": {
+    "title": "Tinyurl System Design",
+    "permalink": "/interview/docs/system-design/tinyurl"
+  }
+}

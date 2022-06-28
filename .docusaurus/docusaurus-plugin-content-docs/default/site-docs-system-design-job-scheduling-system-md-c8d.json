@@ -1,0 +1,27 @@
+{
+  "unversionedId": "system-design/job-scheduling-system",
+  "id": "system-design/job-scheduling-system",
+  "title": "Job Scheduling System",
+  "description": "System Design for Job Scheduling System.",
+  "source": "@site/docs/system-design/job-scheduling-system.md",
+  "sourceDirName": "system-design",
+  "slug": "/system-design/job-scheduling-system",
+  "permalink": "/interview/docs/system-design/job-scheduling-system",
+  "draft": false,
+  "tags": [],
+  "version": "current",
+  "frontMatter": {
+    "tree_title": "Job Scheduling System",
+    "description": "System Design for Job Scheduling System.",
+    "last_modified": "2022-06-25T18:55:24.552Z"
+  },
+  "sidebar": "docs",
+  "previous": {
+    "title": "Instagram System Design",
+    "permalink": "/interview/docs/system-design/instagram"
+  },
+  "next": {
+    "title": "Netflix System Design",
+    "permalink": "/interview/docs/system-design/netflix"
+  }
+}

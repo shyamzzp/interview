@@ -42,7 +42,7 @@
       "plugin": "plugin---interview-docusaurus-debugd-5-d-072"
     }
   },
-  "/interview/docs-297": {
+  "/interview/docs-a3f": {
     "__comp": "__comp---theme-doc-page-1-be-9be",
     "__context": {
       "plugin": "plugin---interview-docsae-8-aef"
@@ -128,6 +128,82 @@
   "/interview/docs/design-patterns-4b0": {
     "__comp": "__comp---theme-doc-item-178-a40",
     "content": "content---interview-docs-design-patterns-3-d-9-d88"
+  },
+  "/interview/docs/oops-6b8": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---interview-docs-oops-055-9c8"
+  },
+  "/interview/docs/oops/javascript-oops-27b": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---interview-docs-oops-javascript-oopsee-7-5a1"
+  },
+  "/interview/docs/questions-502": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---interview-docs-questions-19-e-c79"
+  },
+  "/interview/docs/questions/educative-io-microsoft-a15": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---interview-docs-questions-educative-io-microsoftbaa-48b"
+  },
+  "/interview/docs/questions/geeksforgeeks-microsoft-833": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---interview-docs-questions-geeksforgeeks-microsofte-82-d7e"
+  },
+  "/interview/docs/questions/leetcode-medium-151": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---interview-docs-questions-leetcode-medium-58-f-bfd"
+  },
+  "/interview/docs/questions/studyplan-datastructure-f16": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---interview-docs-questions-studyplan-datastructure-3-e-0-89d"
+  },
+  "/interview/docs/questions/studyplan-leetcode75-3ef": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---interview-docs-questions-studyplan-leetcode-75615-7bb"
+  },
+  "/interview/docs/questions/top100-liked-leetcode-7f2": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---interview-docs-questions-top-100-liked-leetcode-104-56a"
+  },
+  "/interview/docs/system-design-d5e": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---interview-docs-system-designc-5-a-7db"
+  },
+  "/interview/docs/system-design/glossary-ccb": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---interview-docs-system-design-glossarye-51-cd7"
+  },
+  "/interview/docs/system-design/instagram-9e3": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---interview-docs-system-design-instagram-4-a-3-795"
+  },
+  "/interview/docs/system-design/job-scheduling-system-5f0": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---interview-docs-system-design-job-scheduling-systemc-8-d-5a6"
+  },
+  "/interview/docs/system-design/netflix-691": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---interview-docs-system-design-netflix-9-fc-604"
+  },
+  "/interview/docs/system-design/pastebin-e95": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---interview-docs-system-design-pastebin-0-ae-fe4"
+  },
+  "/interview/docs/system-design/tinyurl-041": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---interview-docs-system-design-tinyurl-3-a-9-d8e"
+  },
+  "/interview/docs/system-design/top-10-system-design-08c": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---interview-docs-system-design-top-10-system-designb-83-960"
+  },
+  "/interview/docs/system-design/twitter-system-design-b6e": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---interview-docs-system-design-twitter-system-design-7-f-5-9d4"
+  },
+  "/interview/docs/system-design/uber-6a3": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---interview-docs-system-design-uber-294-ef0"
   },
   "/interview/-7cc": {
     "__comp": "__comp---site-src-pages-index-jsx-9-dd-cb1",

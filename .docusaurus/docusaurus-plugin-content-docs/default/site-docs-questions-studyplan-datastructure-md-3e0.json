@@ -1,0 +1,27 @@
+{
+  "unversionedId": "questions/studyplan-datastructure",
+  "id": "questions/studyplan-datastructure",
+  "title": "Leetcode Data Structure 🚧",
+  "description": "This will cover up the problems/questions from the Leetcode 75 - Study Plan.",
+  "source": "@site/docs/questions/studyplan-datastructure.md",
+  "sourceDirName": "questions",
+  "slug": "/questions/studyplan-datastructure",
+  "permalink": "/interview/docs/questions/studyplan-datastructure",
+  "draft": false,
+  "tags": [],
+  "version": "current",
+  "frontMatter": {
+    "tree_title": "Leetcode Data Structure 🚧",
+    "description": "This will cover up the problems/questions from the Leetcode 75 - Study Plan.",
+    "last_modified": "2022-06-22T12:03:49.349Z"
+  },
+  "sidebar": "docs",
+  "previous": {
+    "title": "Leetcode-Medium 🚧",
+    "permalink": "/interview/docs/questions/leetcode-medium"
+  },
+  "next": {
+    "title": "Leetcode 75 🚧",
+    "permalink": "/interview/docs/questions/studyplan-leetcode75"
+  }
+}
