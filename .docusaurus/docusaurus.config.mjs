@@ -453,11 +453,6 @@ export default {
           "position": "left"
         },
         {
-          "to": "/docs/data-structures/",
-          "label": "Data Structures",
-          "position": "left"
-        },
-        {
           "type": "localeDropdown",
           "position": "right",
           "dropdownItemsBefore": [],
@@ -474,10 +469,6 @@ export default {
           "label": "Data Structures",
           "position": "left",
           "items": [
-            {
-              "label": "Algorithms",
-              "to": "/docs/data-structures/algorithms"
-            },
             {
               "label": "Arrays",
               "to": "/docs/data-structures/arrays"
@@ -527,16 +518,8 @@ export default {
               "to": "/docs/data-structures/priority-queue"
             },
             {
-              "label": "Search Algorithms",
-              "to": "/docs/data-structures/search-algorithms"
-            },
-            {
               "label": "Snippets",
               "to": "/docs/data-structures/snippets"
-            },
-            {
-              "label": "Sorting Algorithms",
-              "to": "/docs/data-structures/sorting-algorithms"
             },
             {
               "label": "Tree",
@@ -545,6 +528,25 @@ export default {
             {
               "label": "Trie",
               "to": "/docs/data-structures/trie"
+            }
+          ]
+        },
+        {
+          "type": "dropdown",
+          "label": "Algorithms",
+          "position": "left",
+          "items": [
+            {
+              "label": "Common Algorithms",
+              "to": "/docs/data-structures/algorithms"
+            },
+            {
+              "label": "Search Algorithms",
+              "to": "/docs/data-structures/search-algorithms"
+            },
+            {
+              "label": "Sorting Algorithms",
+              "to": "/docs/data-structures/sorting-algorithms"
             }
           ]
         },

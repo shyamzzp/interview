@@ -6,9 +6,12 @@ last_modified: 2022-06-08T15:36:32.3632
 
 # Linked List
 
+<div class="section-container">
+<div class="section-item pl0">
+
 ## Node Class
 
-```java showLineNumbers
+```java
 Class Node{
     int data;
     Node next;
@@ -19,9 +22,12 @@ Class Node{
 }
 ```
 
+</div>
+<div class="section-item">
+
 ## Traversing a Linked List
 
-```java showLineNumbers
+```java
 public void traverseLinkedList(Node head) {
     Node temp = head;
     while (temp != null) {
@@ -31,9 +37,15 @@ public void traverseLinkedList(Node head) {
 }
 ```
 
+</div>
+</div>
+<hr/>
+<div class="section-container pl0 pr0">
+<div class="section-item pl0">
+
 ## Removing First Node of Linked List
 
-```java showLineNumbers
+```java
 public void removeFirstNodeLinkedList(Node head) {
     if (head == null) {
         return;
@@ -42,9 +54,12 @@ public void removeFirstNodeLinkedList(Node head) {
 }
 ```
 
+</div>
+<div class="section-item">
+
 ## Removing Last Node of Linked List
 
-```java showLineNumbers
+```java
 public ListNode removeLastNodeLinkedList(Node head) {
     if (head == null || head.next == null) {
         return null;
@@ -58,9 +73,15 @@ public ListNode removeLastNodeLinkedList(Node head) {
 }
 ```
 
+</div>
+</div>
+<hr/>
+<div class="section-container pl0 pr0">
+<div class="section-item pl0">
+
 ## Getting End of Linked List
 
-```java showLineNumbers
+```java
 public void getLastNodeOfLinkedList(Node head) {
     //edge-case - if head is null
     if (head == null) {
@@ -74,9 +95,12 @@ public void getLastNodeOfLinkedList(Node head) {
 }
 ```
 
+</div>
+<div class="section-item">
+
 ## Inserting element at the end of the Linked List.
 
-```java showLineNumbers
+```java
 class Solution {
     public ListNode insert(ListNode root, int item)
     {
@@ -95,6 +119,10 @@ class Solution {
 }
 ```
 
+</div>
+</div>
+<hr/>
+
 ## Reverse Linked List.
 
 <ul>
@@ -104,36 +132,37 @@ class Solution {
 <li>temp will be used to store the next node and will be updated every time to curr.</li>
 </ul>
 
-```java showLineNumbers
+```java
 class Solution {
     public ListNode reverseList(ListNode head) {
         ListNode prev = null;
         ListNode curr = head;
-        
+
         while(curr!=null){
             ListNode temp = curr.next;
             curr.next = prev;
             prev = curr;
             curr = temp;
-            
+
         }
         return prev;
     }
 }
 ```
+<hr/>   
 
 ## Sorting a Linked List using Heap Sort.
 
-```java showLineNumbers
+```java
 class Solution {
     public ListNode sortList(ListNode head) {
         ListNode curr = head;
-        Queue<ListNode> queue = new PriorityQueue<>((n1, n2) -> n1.val - n2.val); 
+        Queue<ListNode> queue = new PriorityQueue<>((n1, n2) -> n1.val - n2.val);
         while (curr != null) {
             queue.add(curr);
             curr = curr.next;
         }
-        
+
         ListNode dummy = new ListNode();
         ListNode prev = dummy;
         while (!queue.isEmpty()) {
@@ -147,13 +176,11 @@ class Solution {
 }
 ```
 
-| Operation   | Time Complexity |
-| ----------- | --------------- |
-| reverseList | O(n)            |
+<hr/>
 
 ## Remove Duplicates from Sorted List. [Sentinel + Predecessor]
 
-```java showLineNumbers
+```java
 class Solution {
 
     public ListNode deleteDuplicates(ListNode head) {
