@@ -8,7 +8,7 @@ last_modified: 2022-06-08T15:36:32.3632
 
 ## Types of Map and Complexities
 
-```java showLineNumbers
+```java
 // Normal Key-Value mapping.
 Map<String, Integer> map = new HashMap<String, Integer>();
 
@@ -31,9 +31,12 @@ Map<String, Integer> map = new TreeMap<>();
 
 ## Operations on Maps
 
+<div class="section-container pl0 pr0">
+<div class="section-item pl0">
+
 ### Insertion Updation
 
-```java showLineNumbers
+```java
 Map<String, Integer> map = new HashMap<String, Integer>();
 map.put("Student 1", 101);
 map.put("Student 1", 202);
@@ -44,10 +47,12 @@ Map<String, String> map = new HashMap<String, String>(){{
 
 // Time Complexity : O(1)
 ```
+</div>
+<div class="section-item">
 
 ### Get Remove
 
-```java showLineNumbers
+```java
 Map<String, Integer> map = new HashMap<String, Integer>();
 map.get("Student 1"); // Returns 202 and NULL if not present.
 
@@ -56,10 +61,17 @@ map.remove(new String("Student 1"));
 
 // Time Complexity : O(1)
 ```
+</div>
+</div>
+
+<hr/>
+
+<div class="section-container pl0 pr0">
+<div class="section-item pl0">
 
 ### Iteration
 
-```java showLineNumbers
+```java
 
 for(Entry<String, Integer> entry: map.entrySet()) {
     System.out.print(entry.getKey() + " >> " + entry.getValue());
@@ -67,10 +79,12 @@ for(Entry<String, Integer> entry: map.entrySet()) {
 
 // Time Complexity : O(n)
 ```
+</div>
+<div class="section-item">
 
 ### containsKey / containsValue
 
-```java showLineNumbers
+```java
 
 Map<String, Integer> map = new HashMap<String, Integer>();
 map.containsKey("Student 1");
@@ -79,10 +93,17 @@ map.containsValue(202);
 
 // Time Complexity : O(n)
 ```
+</div>
+</div>
+
+<hr/>
+
+<div class="section-container pl0 pr0">
+<div class="section-item pl0">
 
 ### values / keySet
 
-```java showLineNumbers
+```java
 
 Map<String, Integer> map = new HashMap<String, Integer>();
 Collection<Integer> values= map.values();
@@ -90,20 +111,28 @@ ArrayList<Integer> listValues = new ArrayList<>(values);
 
 List ListofKeys = new ArrayList(map.keySet());
 ```
+</div>
+<div class="section-item">
 
 ### Empty Check / Size
 
-```java showLineNumbers
+```java
 
 map.isEmpty() // Return boolean true if present else false.
 map.size() // Returns the number of elements(key-value) pairs.
 
 // Time Complexity : O(1)
 ```
+</div>
+</div>
+
+
+
+<hr/>
 
 ## Creating a Frequency Hashmap.
 
-```java showLineNumbers
+```java
 List<T> list = new ArrayList<>(); // Initial Data.
 HashMap<T,Integer> freq = new HashMap<>();
 for(T each: list){
@@ -112,10 +141,11 @@ for(T each: list){
 // The above snippet is generic, you can replace T with any
 // valid datatype.
 ```
+<hr/>
 
 ## Sorted Map.
 
-```java showLineNumbers
+```java
 // Comparator is supported only for the TreeMap Constructor.
 Map<Integer, String> treeMap = new TreeMap<Integer, String>(
     new Comparator<Integer>() {
