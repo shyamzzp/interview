@@ -3,17 +3,29 @@ tree_title: Algorithms
 description: This will cover the most of the topics that will be part of the Algorithms.
 last_modified: 2022-06-08T16:35:30.3530
 ---
+import Tabs from '@theme/Tabs';
+import TabItem from '@theme/TabItem';
 
 # Algorithms
 
 ## 0-1 Knapsack Problem
 
+<div class="section-container pl0 pr0">
+<div class="section-item pl0">
 Given weights and values of n items, put these items in a knapsack of capacity W to get the maximum total value in the knapsack. 
 You cannot break an item, either pick the complete item or don’t pick it (0-1 property).
+</div>
+<div class="section-item">
 
-### Knapsack Recursive
+![](2022-06-29-23-53-17.png)
+</div>
+</div>
 
-```java showLineNumbers
+
+<Tabs>
+<TabItem value="method-1" label="Knapsack Recursive">
+
+```java
 class KnapsackRecursive {
     static int knapSack(int W, int wt[], int val[], int n) {
     // Base Case
@@ -23,33 +35,22 @@ class KnapsackRecursive {
     // more than Knapsack capacity W,
     // then this item cannot be included
     // in the optimal solution
-    if (wt[n - 1] > W) return knapSack(W, wt, val, n - 1);
+    if (wt[n - 1] > W) 
+        return knapSack(W, wt, val, n - 1);
     // Return the maximum of two cases:
     // (1) nth item included
     // (2) not included
-    else return max(
+    else return Math.max(
         val[n - 1] + knapSack(W - wt[n - 1], wt, val, n - 1),
         knapSack(W, wt, val, n - 1)
     );
     }
-
-    // Driver code
-    public static void main(String args[]) {
-    int val[] = new int[] { 60, 100, 120 };
-    int wt[] = new int[] { 10, 20, 30 };
-    int W = 50;
-    int n = val.length;
-    System.out.println(knapSack(W, wt, val, n));
-    }
 }
-
-// Time Complexity : O(2^n)
-// Auxiliary Space : O(1)
 ```
+</TabItem>
+<TabItem value="method-2" label="Knapsack Recursive + Memoization">
 
-### Knapsack Recursive + Memoization
-
-```java showLineNumbers
+```java
 class KnapsackRecursiveMemoization{
     static int knapSackRec(int W, int wt[], int val[], int n, int[][] dp) {
     // Base condition
@@ -77,28 +78,47 @@ class KnapsackRecursiveMemoization{
     for (int i = 0; i < N + 1; i++) for (int j = 0; j < W + 1; j++) dp[i][j] = -1;
     return knapSackRec(W, wt, val, N, dp);
     }
-
-    // Driver Code
-    public static void main(String[] args) {
-    int val[] = { 60, 100, 120 };
-    int wt[] = { 10, 20, 30 };
-    int W = 50;
-    int N = val.length;
-    System.out.println(knapSack(W, wt, val, N));
-    }
 }
 
 // Time Complexity: O(N*W). 
 // Auxiliary Space: O(N*W).
 ```
+</TabItem>
+</Tabs>
+
 
 ## Unbounded Knapsack (Repetition of items allowed)
 
 Given a knapsack weight W and a set of n items with certain value vali and weight wti, we need to calculate the maximum amount that could make up this quantity exactly. 
 This is different from classical Knapsack problem, here we are allowed to use unlimited number of instances of an item.
 
-```java showLineNumbers
+<Tabs>
+<TabItem value="method-1" label="Unbounded Knapsack Recursive">
 
+```java
+int unboundedKnapsack(int W, int wt[], int val[], int idx) {
+    // Base Case
+    // if we are at idx 0.
+    if (idx == 0) {
+        return (W / wt[0]) * val[0];
+    }
+    // There are two cases either take element or not
+    // take. If not take then
+    int notTake = 0 + unboundedKnapsack(W, wt, val, idx - 1);
+    // if take then weight = W-wt[idx] and index will
+    // remain same.
+    int take = Integer.MIN_VALUE;
+    if (wt[idx] <= W) {
+        take = val[idx] + unboundedKnapsack(W - wt[idx], wt, val, idx);
+    }
+    return max(take, notTake);
+}
+```
+
+</TabItem>
+<TabItem value="method-2" label="Unbounded Knapsack Recursive + Memoization">
+
+```java
 class KnapsackDP {
     private static int unboundedKnapsack(int W, int n, int[] val, int[] wt) {
     // dp[i] is going to store maximum value
@@ -108,25 +128,19 @@ class KnapsackDP {
     // Fill dp[] using above recursive formula
     for (int i = 0; i <= W; i++) {
         for (int j = 0; j < n; j++) {
-        if (wt[j] <= i) {
-            dp[i] = max(dp[i], dp[i - wt[j]] + val[j]);
-        }
+            if (wt[j] <= i) {
+                dp[i] = max(dp[i], dp[i - wt[j]] + val[j]);
+            }
         }
     }
     return dp[W];
     }
 
-// int W = 100;
-// int val[] = { 10, 30, 20 };
-// int wt[] = { 5, 10, 15 };
-// int n = val.length;
-// unboundedKnapsack(W, n, val, wt);
-
 // Time Complexity: O(N*W). 
 // Auxiliary Space: O(W).
 ```
 
-```java showLineNumbers
+```java
 
 // dp[i] = 0
 // dp[i] = max(dp[i], dp[i-wt[j]] + val[j] 
@@ -135,6 +149,14 @@ class KnapsackDP {
 //                    wt[j] <= i
 // result = d[W]
 ```
+</TabItem>
+
+
+</Tabs>
+
+
+
+
 
 ## LRU Cache Implementation.
 
