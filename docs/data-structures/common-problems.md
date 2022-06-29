@@ -417,7 +417,223 @@ public int trap(int[] height) {
   </TabItem>
 </Tabs>
 
+## Next Permutation
+
+### Problem Statement
+
+![](2022-06-29-00-06-46.png)
+
+<div class="section-container pl0 pr0">
+<div class="section-item pl0">
+
+```java
+Consists of Two Parts one is finding the highest and just lowest element to the highest when starting from the end.
+Then we can swap the highest and lowest element and reverse the rest of the elements, to the index that was found.
+```
+![](2022-06-29-00-10-05.png)
+</div>
+<div class="section-item">
+
+``` java
+class Solution {
+    public void swap(int arr[], int i, int j){
+        int temp = arr[i];
+        arr[i] = arr[j];
+        arr[j] = temp;
+    }
+    
+    public void reverse(int arr[], int i, int j){
+        while(i < j) swap(arr, i++, j--);
+    }
+    
+    public void nextPermutation(int[] nums) {
+        if(nums == null || nums.length <= 1) return;
+        int i = nums.length - 2;
+        while(i >= 0 && nums[i] >= nums[i+1]) i--;
+        if(i >= 0){
+            int j = nums.length - 1;
+            while(nums[j] <= nums[i]) j--;
+            swap(nums, i, j);
+        }
+        reverse(nums, i+1, nums.length - 1);
+    }
+}
+// TC : O(n)
+// SC : O(1)
+```
+
+</div>
+</div>
+
+
+## Largest Plus Sign
+
+### Problem Statement
+![](2022-06-29-14-25-05.png)
+
+<Tabs>
+  <TabItem value="method-1" label="Explanation" default>
+
+<div class="section-container pl0 pr0">
+<div class="section-item pl0">
+
+Using DP would be a good idea. There will be two process involved in the making of the 2D Dimensional Array.
+First, we will make a 2D Array of size (Rows, Columns) and fill it with 0.
+Second we would fill the 2D DP Array with the count or extension of how much 1's are present in the left and right of the array.
+
+For example, if we have the following array given in the problem statement.
+We would have to create a first iteration Matrix like this:
+
+![](2022-06-29-14-29-42.png)
+</div>
+<div class="section-item">
+
+Secondly we would have to apply our mind to producing the array matrix as below:
+
+![](2022-06-29-14-30-57.png)
+
+At the same time we would keep a ans counter which will be calculating the largest plus sign.
+</div>
+</div>
+
+
+
+</TabItem>
+<TabItem value="method-2" label="Solution - DP">
+
+``` java
+
+class Solution {
+    public int orderOfLargestPlusSign(int N, int[][] mines) {
+        Set<Integer> banned = new HashSet();
+        int[][] dp = new int[N][N];
+        
+        for (int[] mine: mines)
+            banned.add(mine[0] * N + mine[1]);
+        int ans = 0, count;
+        
+        for (int r = 0; r < N; ++r) {
+            count = 0;
+            for (int c = 0; c < N; ++c) {
+                count = banned.contains(r*N + c) ? 0 : count + 1;
+                dp[r][c] = count;
+            }
+            
+            count = 0;
+            for (int c = N-1; c >= 0; --c) {
+                count = banned.contains(r*N + c) ? 0 : count + 1;
+                dp[r][c] = Math.min(dp[r][c], count);
+            }
+        }
+        for (int c = 0; c < N; ++c) {
+            count = 0;
+            for (int r = 0; r < N; ++r) {
+                count = banned.contains(r*N + c) ? 0 : count + 1;
+                dp[r][c] = Math.min(dp[r][c], count);
+            }
+            
+            count = 0;
+            for (int r = N-1; r >= 0; --r) {
+                count = banned.contains(r*N + c) ? 0 : count + 1;
+                dp[r][c] = Math.min(dp[r][c], count);
+                ans = Math.max(ans, dp[r][c]);
+            }
+            
+        }
+        return ans;
+    }
+}
+```
+</TabItem>
+</Tabs>
+
+<hr/>
+
+## Re-organize String
+
+<Tabs>
+<TabItem value="method-1" label="Problem Statement">
+
+![](2022-06-29-15-01-15.png)
+</TabItem>
+<TabItem value="method-2" label="Approach/Solution" default>
+
+<div class="section-container pl0 pr0">
+<div class="section-item pl0">
+
+```java
+Idea behind the approach is that we have to sort the Characters in the String as per their frequencies.
+And further we pop out the two Characters with the max frequency and the second max frequency and add to a new String.
+```
+</div>
+<div class="section-item">
+
+```java
+Remember: Only the two Characters with the Max and Second Max frequencies will be alternating characters in output String. PriorityQueue will be used to maintain the frequencies of the Characters as per their sorted order.
+
+```
+</div>
+</div>
+
+```java
+
+class Solution {
+    public String reorganizeString(String s) {
+        // get the count of each count
+        Map<Character, Integer> map = new HashMap<>();
+        for (char ch: s.toCharArray())
+            map.put(ch, map.getOrDefault(ch, 0) + 1);
+        // use priority queue as maxHeap and use lambdas based on the count
+        PriorityQueue<Character> maxHeap = new PriorityQueue<>((a, b) -> map.get(b) - map.get(a));
+        maxHeap.addAll(map.keySet());
+        
+        // make the most frequent letter, then the next frequent letter and so on
+        StringBuilder sb = new StringBuilder();
+        while (maxHeap.size() > 1) {
+            char current = maxHeap.remove(); // maximum frequent
+            char next = maxHeap.remove(); // next max
+            sb.append(current);
+            sb.append(next); // alternatively adding
+            map.put(current, map.get(current) - 1);
+            map.put(next, map.get(next) - 1);
+            // if still the count > 0, add the charcaters back to heap
+            if (map.get(current) > 0)
+                maxHeap.add(current);
+            if (map.get(next) > 0)
+                maxHeap.add(next);
+        }
+        if (!maxHeap.isEmpty()) {
+            char last = maxHeap.remove();
+            if (map.get(last) > 1)
+                return "";
+            sb.append(last);
+        }
+        return sb.toString();
+    }
+}
+```
+</TabItem>
+</Tabs>
+
+
+
 ## References
+
+<div class="section-container pl0 pr0">
+<div class="section-item pl0">
 
 - <https://www.youtube.com/watch?v=ZI2z5pq0TqA&t=1229s>
 - <https://leetcode.com/problems/trapping-rain-water/>
+- <https://leetcode.com/problems/next-permutation/solution/>
+
+</div>
+<div class="section-item">
+
+- <https://www.youtube.com/watch?v=6qXO72FkqwM>
+- <https://leetcode.com/problems/largest-plus-sign/>
+- <https://leetcode.com/problems/reorganize-string/>
+
+</div>
+</div>
+
+
