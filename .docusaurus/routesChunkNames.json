@@ -42,7 +42,7 @@
       "plugin": "plugin---interview-docusaurus-debugd-5-d-072"
     }
   },
-  "/interview/docs-a3f": {
+  "/interview/docs-6f5": {
     "__comp": "__comp---theme-doc-page-1-be-9be",
     "__context": {
       "plugin": "plugin---interview-docsae-8-aef"
@@ -100,6 +100,10 @@
   "/interview/docs/data-structures/math-862": {
     "__comp": "__comp---theme-doc-item-178-a40",
     "content": "content---interview-docs-data-structures-mathb-3-c-26e"
+  },
+  "/interview/docs/data-structures/matrix-d1e": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---interview-docs-data-structures-matrixcf-3-442"
   },
   "/interview/docs/data-structures/priority-queue-528": {
     "__comp": "__comp---theme-doc-item-178-a40",

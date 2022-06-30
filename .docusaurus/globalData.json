@@ -83,6 +83,11 @@
               "sidebar": "docs"
             },
             {
+              "id": "data-structures/matrix",
+              "path": "/interview/docs/data-structures/matrix",
+              "sidebar": "docs"
+            },
+            {
               "id": "data-structures/priority-queue",
               "path": "/interview/docs/data-structures/priority-queue",
               "sidebar": "docs"

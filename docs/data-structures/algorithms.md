@@ -12,8 +12,9 @@ import TabItem from '@theme/TabItem';
 
 <div class="section-container pl0 pr0">
 <div class="section-item pl0">
-Given weights and values of n items, put these items in a knapsack of capacity W to get the maximum total value in the knapsack. 
-You cannot break an item, either pick the complete item or don’t pick it (0-1 property).
+
+![](2022-06-30-11-52-41.png)
+
 </div>
 <div class="section-item">
 
@@ -29,23 +30,31 @@ You cannot break an item, either pick the complete item or don’t pick it (0-1 
 class KnapsackRecursive {
     static int knapSack(int W, int wt[], int val[], int n) {
     // Base Case
-    if (n == 0 || W == 0) return 0;
+        if (n == 0 || W == 0) return 0;
 
-    // If weight of the nth item is
-    // more than Knapsack capacity W,
-    // then this item cannot be included
-    // in the optimal solution
-    if (wt[n - 1] > W) 
-        return knapSack(W, wt, val, n - 1);
-    // Return the maximum of two cases:
-    // (1) nth item included
-    // (2) not included
-    else return Math.max(
-        val[n - 1] + knapSack(W - wt[n - 1], wt, val, n - 1),
-        knapSack(W, wt, val, n - 1)
-    );
+        // If weight of the nth item is
+        // more than Knapsack capacity W,
+        // then this item cannot be included
+        // in the optimal solution
+        if (wt[n - 1] > W) 
+            return knapSack(W, wt, val, n - 1);
+        // Return the maximum of two cases:
+        // (1) nth item included
+        // (2) not included
+        else return Math.max(
+            val[n - 1] + knapSack(W - wt[n - 1], wt, val, n - 1),
+            knapSack(W, wt, val, n - 1)
+        );
     }
 }
+// Driver code
+// public static void main(String args[]) {
+//     int val[] = new int[] { 60, 100, 120 };
+//     int wt[] = new int[] { 10, 20, 30 };
+//     int W = 50;
+//     int n = val.length;
+//     System.out.println(knapSack(W, wt, val, n));
+// }
 ```
 </TabItem>
 <TabItem value="method-2" label="Knapsack Recursive + Memoization">
@@ -73,10 +82,10 @@ class KnapsackRecursiveMemoization{
     }
 
     static int knapSack(int W, int wt[], int val[], int N) {
-    int dp[][] = new int[N + 1][W + 1];
-    // Loop to initially filled the table with -1
-    for (int i = 0; i < N + 1; i++) for (int j = 0; j < W + 1; j++) dp[i][j] = -1;
-    return knapSackRec(W, wt, val, N, dp);
+        int dp[][] = new int[N + 1][W + 1];
+        // Loop to initially filled the table with -1
+        for (int i = 0; i < N + 1; i++) for (int j = 0; j < W + 1; j++) dp[i][j] = -1;
+        return knapSackRec(W, wt, val, N, dp);
     }
 }
 

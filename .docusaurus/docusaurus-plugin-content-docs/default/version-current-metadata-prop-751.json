@@ -88,6 +88,12 @@
           },
           {
             "type": "link",
+            "label": "Matrix",
+            "href": "/interview/docs/data-structures/matrix",
+            "docId": "data-structures/matrix"
+          },
+          {
+            "type": "link",
             "label": "Priority Queue",
             "href": "/interview/docs/data-structures/priority-queue",
             "docId": "data-structures/priority-queue"
@@ -333,6 +339,12 @@
       "id": "data-structures/math",
       "title": "Math",
       "description": "This will cover the most of the topics that will be part of the Math.",
+      "sidebar": "docs"
+    },
+    "data-structures/matrix": {
+      "id": "data-structures/matrix",
+      "title": "Matrix",
+      "description": "This will cover the most of the topics that will be part of the Matrix.",
       "sidebar": "docs"
     },
     "data-structures/priority-queue": {

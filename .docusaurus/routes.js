@@ -39,7 +39,7 @@ export default [
   },
   {
     path: '/interview/docs',
-    component: ComponentCreator('/interview/docs', 'a3f'),
+    component: ComponentCreator('/interview/docs', '6f5'),
     routes: [
       {
         path: '/interview/docs/data-structures',
@@ -116,6 +116,12 @@ export default [
       {
         path: '/interview/docs/data-structures/math',
         component: ComponentCreator('/interview/docs/data-structures/math', '862'),
+        exact: true,
+        sidebar: "docs"
+      },
+      {
+        path: '/interview/docs/data-structures/matrix',
+        component: ComponentCreator('/interview/docs/data-structures/matrix', 'd1e'),
         exact: true,
         sidebar: "docs"
       },

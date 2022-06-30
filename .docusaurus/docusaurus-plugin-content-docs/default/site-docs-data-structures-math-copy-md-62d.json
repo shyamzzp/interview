@@ -1,12 +1,12 @@
 {
-  "unversionedId": "data-structures/math",
-  "id": "data-structures/math",
+  "unversionedId": "data-structures/math copy",
+  "id": "data-structures/math copy",
   "title": "Math",
   "description": "This will cover the most of the topics that will be part of the Math.",
-  "source": "@site/docs/data-structures/math.md",
+  "source": "@site/docs/data-structures/math copy.md",
   "sourceDirName": "data-structures",
-  "slug": "/data-structures/math",
-  "permalink": "/interview/docs/data-structures/math",
+  "slug": "/data-structures/math copy",
+  "permalink": "/interview/docs/data-structures/math copy",
   "draft": false,
   "tags": [],
   "version": "current",
@@ -21,7 +21,7 @@
     "permalink": "/interview/docs/data-structures/map"
   },
   "next": {
-    "title": "Matrix",
-    "permalink": "/interview/docs/data-structures/matrix"
+    "title": "Math",
+    "permalink": "/interview/docs/data-structures/math"
   }
 }

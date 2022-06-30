@@ -359,6 +359,33 @@
                 "permalink": "/interview/docs/data-structures/map"
               },
               "next": {
+                "title": "Matrix",
+                "permalink": "/interview/docs/data-structures/matrix"
+              }
+            },
+            {
+              "unversionedId": "data-structures/matrix",
+              "id": "data-structures/matrix",
+              "title": "Matrix",
+              "description": "This will cover the most of the topics that will be part of the Matrix.",
+              "source": "@site/docs/data-structures/matrix.md",
+              "sourceDirName": "data-structures",
+              "slug": "/data-structures/matrix",
+              "permalink": "/interview/docs/data-structures/matrix",
+              "draft": false,
+              "tags": [],
+              "version": "current",
+              "frontMatter": {
+                "tree_title": "Matrix",
+                "description": "This will cover the most of the topics that will be part of the Matrix.",
+                "last_modified": "2022-06-30T14:54:32.543Z"
+              },
+              "sidebar": "docs",
+              "previous": {
+                "title": "Math",
+                "permalink": "/interview/docs/data-structures/math"
+              },
+              "next": {
                 "title": "Priority Queue",
                 "permalink": "/interview/docs/data-structures/priority-queue"
               }
@@ -382,8 +409,8 @@
               },
               "sidebar": "docs",
               "previous": {
-                "title": "Math",
-                "permalink": "/interview/docs/data-structures/math"
+                "title": "Matrix",
+                "permalink": "/interview/docs/data-structures/matrix"
               },
               "next": {
                 "title": "Search Algorithms",
@@ -1118,6 +1145,10 @@
                   {
                     "type": "doc",
                     "id": "data-structures/math"
+                  },
+                  {
+                    "type": "doc",
+                    "id": "data-structures/matrix"
                   },
                   {
                     "type": "doc",
