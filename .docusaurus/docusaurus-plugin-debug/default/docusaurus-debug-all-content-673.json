@@ -359,8 +359,8 @@
                 "permalink": "/interview/docs/data-structures/map"
               },
               "next": {
-                "title": "Matrix",
-                "permalink": "/interview/docs/data-structures/matrix"
+                "title": "matrix-component",
+                "permalink": "/interview/docs/data-structures/matrix-component"
               }
             },
             {
@@ -368,7 +368,7 @@
               "id": "data-structures/matrix",
               "title": "Matrix",
               "description": "This will cover the most of the topics that will be part of the Matrix.",
-              "source": "@site/docs/data-structures/matrix.md",
+              "source": "@site/docs/data-structures/matrix.mdx",
               "sourceDirName": "data-structures",
               "slug": "/data-structures/matrix",
               "permalink": "/interview/docs/data-structures/matrix",
@@ -382,12 +382,35 @@
               },
               "sidebar": "docs",
               "previous": {
-                "title": "Math",
-                "permalink": "/interview/docs/data-structures/math"
+                "title": "matrix-component",
+                "permalink": "/interview/docs/data-structures/matrix-component"
               },
               "next": {
                 "title": "Priority Queue",
                 "permalink": "/interview/docs/data-structures/priority-queue"
+              }
+            },
+            {
+              "unversionedId": "data-structures/matrix-component",
+              "id": "data-structures/matrix-component",
+              "title": "matrix-component",
+              "description": "",
+              "source": "@site/docs/data-structures/matrix-component.mdx",
+              "sourceDirName": "data-structures",
+              "slug": "/data-structures/matrix-component",
+              "permalink": "/interview/docs/data-structures/matrix-component",
+              "draft": false,
+              "tags": [],
+              "version": "current",
+              "frontMatter": {},
+              "sidebar": "docs",
+              "previous": {
+                "title": "Math",
+                "permalink": "/interview/docs/data-structures/math"
+              },
+              "next": {
+                "title": "Matrix",
+                "permalink": "/interview/docs/data-structures/matrix"
               }
             },
             {
@@ -1145,6 +1168,10 @@
                   {
                     "type": "doc",
                     "id": "data-structures/math"
+                  },
+                  {
+                    "type": "doc",
+                    "id": "data-structures/matrix-component"
                   },
                   {
                     "type": "doc",

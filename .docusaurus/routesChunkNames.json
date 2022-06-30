@@ -1,176 +1,223 @@
 {
-  "/interview/docs-6f5": {
-    "__comp": "1be78505",
+  "/interview/__docusaurus/debug-5f5": {
+    "__comp": "__comp---theme-debug-config-23-a-2ff",
     "__context": {
-      "plugin": "ae8354d7"
+      "plugin": "plugin---interview-docusaurus-debugd-5-d-072"
+    }
+  },
+  "/interview/__docusaurus/debug/config-11c": {
+    "__comp": "__comp---theme-debug-config-23-a-2ff",
+    "__context": {
+      "plugin": "plugin---interview-docusaurus-debugd-5-d-072"
+    }
+  },
+  "/interview/__docusaurus/debug/content-661": {
+    "__comp": "__comp---theme-debug-contentba-8-ce7",
+    "__context": {
+      "plugin": "plugin---interview-docusaurus-debugd-5-d-072"
     },
-    "versionMetadata": "935f2afb"
+    "allContent": "allContent---interview-docusaurus-debug-content-246-6b0"
+  },
+  "/interview/__docusaurus/debug/globalData-fe0": {
+    "__comp": "__comp---theme-debug-global-dataede-0fa",
+    "__context": {
+      "plugin": "plugin---interview-docusaurus-debugd-5-d-072"
+    }
+  },
+  "/interview/__docusaurus/debug/metadata-608": {
+    "__comp": "__comp---theme-debug-site-metadata-68-e-3d4",
+    "__context": {
+      "plugin": "plugin---interview-docusaurus-debugd-5-d-072"
+    }
+  },
+  "/interview/__docusaurus/debug/registry-9f3": {
+    "__comp": "__comp---theme-debug-registry-679-501",
+    "__context": {
+      "plugin": "plugin---interview-docusaurus-debugd-5-d-072"
+    }
+  },
+  "/interview/__docusaurus/debug/routes-613": {
+    "__comp": "__comp---theme-debug-routes-946-699",
+    "__context": {
+      "plugin": "plugin---interview-docusaurus-debugd-5-d-072"
+    }
+  },
+  "/interview/docs-ee7": {
+    "__comp": "__comp---theme-doc-page-1-be-9be",
+    "__context": {
+      "plugin": "plugin---interview-docsae-8-aef"
+    },
+    "versionMetadata": "versionMetadata---interview-docs-935-f58"
   },
   "/interview/docs/data-structures-e9f": {
-    "__comp": "17896441",
-    "content": "1583697a"
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---interview-docs-data-structures-158-c75"
   },
   "/interview/docs/data-structures/algorithms-146": {
-    "__comp": "17896441",
-    "content": "384d51a0"
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---interview-docs-data-structures-algorithms-384-68d"
   },
   "/interview/docs/data-structures/arrays-2d6": {
-    "__comp": "17896441",
-    "content": "af12e034"
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---interview-docs-data-structures-arraysaf-1-e37"
   },
   "/interview/docs/data-structures/bit-manipulation-d78": {
-    "__comp": "17896441",
-    "content": "de3a644f"
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---interview-docs-data-structures-bit-manipulationde-3-82b"
   },
   "/interview/docs/data-structures/common-problems-e59": {
-    "__comp": "17896441",
-    "content": "ba5624bd"
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---interview-docs-data-structures-common-problemsba-5-fb5"
   },
   "/interview/docs/data-structures/comparators-266": {
-    "__comp": "17896441",
-    "content": "673891a6"
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---interview-docs-data-structures-comparators-673-256"
   },
   "/interview/docs/data-structures/complexity-cb7": {
-    "__comp": "17896441",
-    "content": "5b72ff07"
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---interview-docs-data-structures-complexity-5-b-7-5b8"
   },
   "/interview/docs/data-structures/dequeue-722": {
-    "__comp": "17896441",
-    "content": "9b6e704d"
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---interview-docs-data-structures-dequeue-9-b-6-1cc"
   },
   "/interview/docs/data-structures/dfs-924": {
-    "__comp": "17896441",
-    "content": "da3cdc9b"
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---interview-docs-data-structures-dfsda-3-8e9"
   },
   "/interview/docs/data-structures/graph-7f5": {
-    "__comp": "17896441",
-    "content": "f273acc6"
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---interview-docs-data-structures-graphf-27-28b"
   },
   "/interview/docs/data-structures/linked-list-795": {
-    "__comp": "17896441",
-    "content": "29c15a8f"
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---interview-docs-data-structures-linked-list-29-c-3ed"
   },
   "/interview/docs/data-structures/map-e8a": {
-    "__comp": "17896441",
-    "content": "6250cfe9"
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---interview-docs-data-structures-map-625-4e4"
   },
   "/interview/docs/data-structures/math-862": {
-    "__comp": "17896441",
-    "content": "b3ce0686"
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---interview-docs-data-structures-mathb-3-c-26e"
   },
-  "/interview/docs/data-structures/matrix-d1e": {
-    "__comp": "17896441",
-    "content": "cf3e1030"
+  "/interview/docs/data-structures/matrix-027": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---interview-docs-data-structures-matrix-1-f-5-68a"
+  },
+  "/interview/docs/data-structures/matrix-component-fee": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---interview-docs-data-structures-matrix-component-0-f-5-cd4"
   },
   "/interview/docs/data-structures/priority-queue-528": {
-    "__comp": "17896441",
-    "content": "dd9fef75"
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---interview-docs-data-structures-priority-queuedd-9-647"
   },
   "/interview/docs/data-structures/search-algorithms-be3": {
-    "__comp": "17896441",
-    "content": "28cb8d60"
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---interview-docs-data-structures-search-algorithms-28-c-634"
   },
   "/interview/docs/data-structures/snippets-9c2": {
-    "__comp": "17896441",
-    "content": "77ee0c8a"
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---interview-docs-data-structures-snippets-77-e-ea6"
   },
   "/interview/docs/data-structures/sorting-algorithms-7b8": {
-    "__comp": "17896441",
-    "content": "445ba584"
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---interview-docs-data-structures-sorting-algorithms-445-dde"
   },
   "/interview/docs/data-structures/tree-773": {
-    "__comp": "17896441",
-    "content": "1b0802d5"
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---interview-docs-data-structures-tree-1-b-0-10a"
   },
   "/interview/docs/data-structures/trie-e07": {
-    "__comp": "17896441",
-    "content": "87c2385f"
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---interview-docs-data-structures-trie-87-c-1de"
   },
   "/interview/docs/design-patterns-4b0": {
-    "__comp": "17896441",
-    "content": "3d941b31"
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---interview-docs-design-patterns-3-d-9-d88"
   },
   "/interview/docs/oops-6b8": {
-    "__comp": "17896441",
-    "content": "05525b58"
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---interview-docs-oops-055-9c8"
   },
   "/interview/docs/oops/javascript-oops-27b": {
-    "__comp": "17896441",
-    "content": "ee760b31"
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---interview-docs-oops-javascript-oopsee-7-5a1"
   },
   "/interview/docs/questions-502": {
-    "__comp": "17896441",
-    "content": "19ee7163"
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---interview-docs-questions-19-e-c79"
   },
   "/interview/docs/questions/educative-io-microsoft-a15": {
-    "__comp": "17896441",
-    "content": "baafb99a"
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---interview-docs-questions-educative-io-microsoftbaa-48b"
   },
   "/interview/docs/questions/geeksforgeeks-microsoft-833": {
-    "__comp": "17896441",
-    "content": "e82fafaa"
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---interview-docs-questions-geeksforgeeks-microsofte-82-d7e"
   },
   "/interview/docs/questions/leetcode-medium-151": {
-    "__comp": "17896441",
-    "content": "58fdec89"
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---interview-docs-questions-leetcode-medium-58-f-bfd"
   },
   "/interview/docs/questions/studyplan-datastructure-f16": {
-    "__comp": "17896441",
-    "content": "3e05bc72"
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---interview-docs-questions-studyplan-datastructure-3-e-0-89d"
   },
   "/interview/docs/questions/studyplan-leetcode75-3ef": {
-    "__comp": "17896441",
-    "content": "6157bddc"
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---interview-docs-questions-studyplan-leetcode-75615-7bb"
   },
   "/interview/docs/questions/top100-liked-leetcode-7f2": {
-    "__comp": "17896441",
-    "content": "1047b43e"
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---interview-docs-questions-top-100-liked-leetcode-104-56a"
   },
   "/interview/docs/system-design-d5e": {
-    "__comp": "17896441",
-    "content": "c5a75acd"
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---interview-docs-system-designc-5-a-7db"
   },
   "/interview/docs/system-design/glossary-ccb": {
-    "__comp": "17896441",
-    "content": "e512f3a4"
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---interview-docs-system-design-glossarye-51-cd7"
   },
   "/interview/docs/system-design/instagram-9e3": {
-    "__comp": "17896441",
-    "content": "4a3b7af3"
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---interview-docs-system-design-instagram-4-a-3-795"
   },
   "/interview/docs/system-design/job-scheduling-system-5f0": {
-    "__comp": "17896441",
-    "content": "c8d68a75"
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---interview-docs-system-design-job-scheduling-systemc-8-d-5a6"
   },
   "/interview/docs/system-design/netflix-691": {
-    "__comp": "17896441",
-    "content": "9fccb206"
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---interview-docs-system-design-netflix-9-fc-604"
   },
   "/interview/docs/system-design/pastebin-e95": {
-    "__comp": "17896441",
-    "content": "0ae54b83"
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---interview-docs-system-design-pastebin-0-ae-fe4"
   },
   "/interview/docs/system-design/tinyurl-041": {
-    "__comp": "17896441",
-    "content": "3a9b29dd"
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---interview-docs-system-design-tinyurl-3-a-9-d8e"
   },
   "/interview/docs/system-design/top-10-system-design-08c": {
-    "__comp": "17896441",
-    "content": "b83c3123"
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---interview-docs-system-design-top-10-system-designb-83-960"
   },
   "/interview/docs/system-design/twitter-system-design-b6e": {
-    "__comp": "17896441",
-    "content": "7f582d87"
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---interview-docs-system-design-twitter-system-design-7-f-5-9d4"
   },
   "/interview/docs/system-design/uber-6a3": {
-    "__comp": "17896441",
-    "content": "2946cacf"
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---interview-docs-system-design-uber-294-ef0"
   },
   "/interview/-7cc": {
-    "__comp": "9dd8a0d2",
+    "__comp": "__comp---site-src-pages-index-jsx-9-dd-cb1",
     "__context": {
-      "plugin": "92950e2a"
+      "plugin": "plugin---interview-929-e50"
     },
-    "config": "5e9f5e1a"
+    "config": "config---interview-5-e-9-258"
   }
 }

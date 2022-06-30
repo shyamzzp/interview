@@ -1,0 +1,15 @@
+import {useState} from 'react';
+
+export function MyComponent(props) {
+    const [isOpen, setIsOpen] = useState(false);
+    return (
+        // onClick={(e) => {alert(e)}}
+        (isOpen?
+        <div className="description-container">
+            <div className="description-gray" onClick={(e) => {setIsOpen(!isOpen)}}>adfadf</div>
+            <div className="description">
+                
+            </div>
+        </div>:<div onClick={(e) => {setIsOpen(!isOpen)}}>Show Details</div>)
+    );
+}
