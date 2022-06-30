@@ -39,7 +39,7 @@ export default [
   },
   {
     path: '/interview/docs',
-    component: ComponentCreator('/interview/docs', 'ee7'),
+    component: ComponentCreator('/interview/docs', 'a1c'),
     routes: [
       {
         path: '/interview/docs/data-structures',
@@ -62,6 +62,12 @@ export default [
       {
         path: '/interview/docs/data-structures/bit-manipulation',
         component: ComponentCreator('/interview/docs/data-structures/bit-manipulation', 'd78'),
+        exact: true,
+        sidebar: "docs"
+      },
+      {
+        path: '/interview/docs/data-structures/code-block',
+        component: ComponentCreator('/interview/docs/data-structures/code-block', 'b29'),
         exact: true,
         sidebar: "docs"
       },

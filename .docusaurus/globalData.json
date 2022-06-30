@@ -33,6 +33,11 @@
               "sidebar": "docs"
             },
             {
+              "id": "data-structures/code-block",
+              "path": "/interview/docs/data-structures/code-block",
+              "sidebar": "docs"
+            },
+            {
               "id": "data-structures/common-problems",
               "path": "/interview/docs/data-structures/common-problems",
               "sidebar": "docs"

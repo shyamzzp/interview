@@ -21,6 +21,8 @@ export default {
   "titleDelimiter": "•",
   "scripts": [
     "https://kit.fontawesome.com/307bcbc229.js",
+    "https://unpkg.com/driver.js/dist/driver.min.js",
+    "https://unpkg.com/driver.js/dist/driver.min.css",
     "/static/scrolltotop.js"
   ],
   "plugins": [

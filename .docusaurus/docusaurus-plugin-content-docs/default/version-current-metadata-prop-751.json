@@ -34,6 +34,12 @@
           },
           {
             "type": "link",
+            "label": "code-block",
+            "href": "/interview/docs/data-structures/code-block",
+            "docId": "data-structures/code-block"
+          },
+          {
+            "type": "link",
             "label": "Common Problems",
             "href": "/interview/docs/data-structures/common-problems",
             "docId": "data-structures/common-problems"
@@ -285,6 +291,12 @@
       "id": "data-structures/bit-manipulation",
       "title": "Bit Manipulation",
       "description": "This will cover the most of the topics that will be part of the Bit Manipulation.",
+      "sidebar": "docs"
+    },
+    "data-structures/code-block": {
+      "id": "data-structures/code-block",
+      "title": "code-block",
+      "description": "function HelloCodeTitle(props) {",
       "sidebar": "docs"
     },
     "data-structures/common-problems": {

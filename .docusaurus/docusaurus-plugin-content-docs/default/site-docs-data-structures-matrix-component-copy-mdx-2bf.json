@@ -1,0 +1,23 @@
+{
+  "unversionedId": "data-structures/matrix-component copy",
+  "id": "data-structures/matrix-component copy",
+  "title": "matrix-component copy",
+  "description": "",
+  "source": "@site/docs/data-structures/matrix-component copy.mdx",
+  "sourceDirName": "data-structures",
+  "slug": "/data-structures/matrix-component copy",
+  "permalink": "/interview/docs/data-structures/matrix-component copy",
+  "draft": false,
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "docs",
+  "previous": {
+    "title": "Math",
+    "permalink": "/interview/docs/data-structures/math"
+  },
+  "next": {
+    "title": "matrix-component",
+    "permalink": "/interview/docs/data-structures/matrix-component"
+  }
+}

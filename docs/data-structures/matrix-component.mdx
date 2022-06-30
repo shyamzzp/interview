@@ -1,4 +1,8 @@
 import {useState} from 'react';
+import CodeBlock from '@theme/CodeBlock';
+import MyComponentSource from '!!raw-loader!./code-block.md';
+import Driver from 'driver.js';
+import 'driver.js/dist/driver.min.css';
 
 export function MyComponent(props) {
     const [isOpen, setIsOpen] = useState(false);
@@ -6,10 +10,12 @@ export function MyComponent(props) {
         // onClick={(e) => {alert(e)}}
         (isOpen?
         <div className="description-container">
-            <div className="description-gray" onClick={(e) => {setIsOpen(!isOpen)}}>adfadf</div>
+            <div className="description-gray" onClick={(e) => {setIsOpen(!isOpen)}}></div>
             <div className="description">
-                
+                <CodeBlock language="js">{MyComponentSource}</CodeBlock>
+                <button onClick={(e) => {const driver = new Driver();driver.highlight('#hello')}}>Button</button>
             </div>
+            
         </div>:<div onClick={(e) => {setIsOpen(!isOpen)}}>Show Details</div>)
     );
 }
