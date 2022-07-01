@@ -1,3 +1,14 @@
+<button onClick={(e) => {e.stopPropagation();driver.highlight({
+      element: '#nice',
+      popover: {
+        title: 'Title for the Popover',
+        description: 'Description for it',
+      }
+    });}}>Button</button>
+<MyComponent />
+
+matrix-component.mdx
+
 import {useState} from 'react';
 import CodeBlock from '@theme/CodeBlock';
 import MyComponentSource from '!!raw-loader!./code-block.md';
@@ -15,7 +26,15 @@ export function MyComponent(props) {
                 <CodeBlock language="js">{MyComponentSource}</CodeBlock>
                 <button onClick={(e) => {const driver = new Driver();driver.highlight('#hello')}}>Button</button>
             </div>
-            
         </div>:<div onClick={(e) => {setIsOpen(!isOpen)}}>Show Details</div>)
     );
 }
+
+
+<div className="description-container">
+            <div className="description-gray" onClick={(e) => {setIsOpen(!isOpen)}}></div>
+            <div className="description">
+                <button onClick={(e) => {const driver = new Driver();driver.highlight('#hello')}}>Button</button>
+            </div>
+            
+</div>
