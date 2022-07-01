@@ -1,7 +1,7 @@
 {
   "unversionedId": "data-structures/matrix",
   "id": "data-structures/matrix",
-  "title": "Matrix",
+  "title": "matrix",
   "description": "This will cover the most of the topics that will be part of the Matrix.",
   "source": "@site/docs/data-structures/matrix.mdx",
   "sourceDirName": "data-structures",
@@ -17,8 +17,8 @@
   },
   "sidebar": "docs",
   "previous": {
-    "title": "matrix-component",
-    "permalink": "/interview/docs/data-structures/matrix-component"
+    "title": "Math",
+    "permalink": "/interview/docs/data-structures/math"
   },
   "next": {
     "title": "Priority Queue",

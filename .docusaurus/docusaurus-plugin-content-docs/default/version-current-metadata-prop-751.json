@@ -94,13 +94,7 @@
           },
           {
             "type": "link",
-            "label": "matrix-component",
-            "href": "/interview/docs/data-structures/matrix-component",
-            "docId": "data-structures/matrix-component"
-          },
-          {
-            "type": "link",
-            "label": "Matrix",
+            "label": "matrix",
             "href": "/interview/docs/data-structures/matrix",
             "docId": "data-structures/matrix"
           },
@@ -361,14 +355,8 @@
     },
     "data-structures/matrix": {
       "id": "data-structures/matrix",
-      "title": "Matrix",
+      "title": "matrix",
       "description": "This will cover the most of the topics that will be part of the Matrix.",
-      "sidebar": "docs"
-    },
-    "data-structures/matrix-component": {
-      "id": "data-structures/matrix-component",
-      "title": "matrix-component",
-      "description": "",
       "sidebar": "docs"
     },
     "data-structures/priority-queue": {
