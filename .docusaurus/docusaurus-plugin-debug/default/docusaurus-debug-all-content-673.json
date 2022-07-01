@@ -274,6 +274,33 @@
                 "permalink": "/interview/docs/data-structures/dequeue"
               },
               "next": {
+                "title": "Data Structure Glossary",
+                "permalink": "/interview/docs/data-structures/ds-glossary"
+              }
+            },
+            {
+              "unversionedId": "data-structures/ds-glossary",
+              "id": "data-structures/ds-glossary",
+              "title": "Data Structure Glossary",
+              "description": "This will cover the most of the topics that will be part of the Data Structure Glossary.",
+              "source": "@site/docs/data-structures/ds-glossary.md",
+              "sourceDirName": "data-structures",
+              "slug": "/data-structures/ds-glossary",
+              "permalink": "/interview/docs/data-structures/ds-glossary",
+              "draft": false,
+              "tags": [],
+              "version": "current",
+              "frontMatter": {
+                "tree_title": "Data Structure Glossary",
+                "description": "This will cover the most of the topics that will be part of the Data Structure Glossary.",
+                "last_modified": "2022-07-01T13:40:13.401Z"
+              },
+              "sidebar": "docs",
+              "previous": {
+                "title": "DFS (Depth First Search)",
+                "permalink": "/interview/docs/data-structures/dfs"
+              },
+              "next": {
                 "title": "Graph",
                 "permalink": "/interview/docs/data-structures/graph"
               }
@@ -297,8 +324,8 @@
               },
               "sidebar": "docs",
               "previous": {
-                "title": "DFS (Depth First Search)",
-                "permalink": "/interview/docs/data-structures/dfs"
+                "title": "Data Structure Glossary",
+                "permalink": "/interview/docs/data-structures/ds-glossary"
               },
               "next": {
                 "title": "Linked List",
@@ -1156,6 +1183,10 @@
                   {
                     "type": "doc",
                     "id": "data-structures/dfs"
+                  },
+                  {
+                    "type": "doc",
+                    "id": "data-structures/ds-glossary"
                   },
                   {
                     "type": "doc",

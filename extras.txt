@@ -32,9 +32,8 @@ export function MyComponent(props) {
 
 
 <div className="description-container">
-            <div className="description-gray" onClick={(e) => {setIsOpen(!isOpen)}}></div>
-            <div className="description">
-                <button onClick={(e) => {const driver = new Driver();driver.highlight('#hello')}}>Button</button>
-            </div>
-            
+<div className="description-gray" onClick={(e) => {setIsOpen(!isOpen)}}></div>
+<div className="description">
+    <button onClick={(e) => {const driver = new Driver();driver.highlight('#hello')}}>Button</button>
+</div>
 </div>

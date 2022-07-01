@@ -70,6 +70,12 @@
           },
           {
             "type": "link",
+            "label": "Data Structure Glossary",
+            "href": "/interview/docs/data-structures/ds-glossary",
+            "docId": "data-structures/ds-glossary"
+          },
+          {
+            "type": "link",
             "label": "Graph",
             "href": "/interview/docs/data-structures/graph",
             "docId": "data-structures/graph"
@@ -327,6 +333,12 @@
       "id": "data-structures/dfs",
       "title": "DFS (Depth First Search)",
       "description": "This will cover the most of the topics that will be part of the Depth First Search.",
+      "sidebar": "docs"
+    },
+    "data-structures/ds-glossary": {
+      "id": "data-structures/ds-glossary",
+      "title": "Data Structure Glossary",
+      "description": "This will cover the most of the topics that will be part of the Data Structure Glossary.",
       "sidebar": "docs"
     },
     "data-structures/graph": {

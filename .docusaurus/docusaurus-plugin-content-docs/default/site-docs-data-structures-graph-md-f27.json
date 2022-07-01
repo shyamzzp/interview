@@ -17,8 +17,8 @@
   },
   "sidebar": "docs",
   "previous": {
-    "title": "DFS (Depth First Search)",
-    "permalink": "/interview/docs/data-structures/dfs"
+    "title": "Data Structure Glossary",
+    "permalink": "/interview/docs/data-structures/ds-glossary"
   },
   "next": {
     "title": "Linked List",

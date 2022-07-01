@@ -68,6 +68,11 @@
               "sidebar": "docs"
             },
             {
+              "id": "data-structures/ds-glossary",
+              "path": "/interview/docs/data-structures/ds-glossary",
+              "sidebar": "docs"
+            },
+            {
               "id": "data-structures/graph",
               "path": "/interview/docs/data-structures/graph",
               "sidebar": "docs"

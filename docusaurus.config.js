@@ -176,6 +176,10 @@ module.exports = {
                 to: "/docs/data-structures/map",
               },
               {
+                label: "Matrix",
+                to: "/docs/data-structures/matrix",
+              },
+              {
                 label: "Math",
                 to: "/docs/data-structures/math",
               },
@@ -227,10 +231,6 @@ module.exports = {
             position: "left",
             items: [
               {
-                label: "System Design Glossary",
-                to: "/interview/docs/system-design/glossary",
-              },
-              {
                 label: "Instagram System Design",
                 to: "/interview/docs/system-design/instagram",
               },
@@ -257,6 +257,21 @@ module.exports = {
               {
                 label: "Uber/Lyft System Design",
                 to: "/interview/docs/system-design/uber",
+              },
+            ],
+          },
+          {
+            type: "dropdown",
+            label: "Glossary",
+            position: "left",
+            items: [
+              {
+                label: "Data Structures Glossary",
+                to: "/interview/docs/data-structures/ds-glossary",
+              },
+              {
+                label: "System Design Glossary",
+                to: "/interview/docs/system-design/glossary",
               },
             ],
           },
