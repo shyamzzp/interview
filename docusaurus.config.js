@@ -176,6 +176,10 @@ module.exports = {
                 to: "/docs/data-structures/map",
               },
               {
+                label: "Set",
+                to: "/docs/data-structures/set",
+              },
+              {
                 label: "Matrix",
                 to: "/docs/data-structures/matrix",
               },
@@ -186,11 +190,6 @@ module.exports = {
               {
                 label: "Priority Queue",
                 to: "/docs/data-structures/priority-queue",
-              },
-
-              {
-                label: "Snippets",
-                to: "/docs/data-structures/snippets",
               },
               {
                 label: "Tree",
