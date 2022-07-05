@@ -672,3 +672,8 @@ mark {
   color: #e3e3e3;
   padding: 20px;
 }
+
+.flex-ve{
+  display: flex !important;
+  align-items: flex-end !important;
+}

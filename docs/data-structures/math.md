@@ -3,7 +3,6 @@ tree_title: Math
 description: This will cover the most of the topics that will be part of the Math.
 last_modified: 2022-06-08T16:35:30.3530
 ---
-
 # Math
 
 ## One Liner.
@@ -13,6 +12,10 @@ last_modified: 2022-06-08T16:35:30.3530
 | To check if Double is an Integer | <code>if(d%1==0)</code>                             | if true then d is integer.        |
 | To check power of any number     | <code>double temp = Math.log(n)/Math.log(2);</code> | Resultant temp should be Integer. |
 | LCD of two numbers               | <code>LCM(a, b) = (a x b) / GCD(a, b)</code>        | Program for GCD is below.         |
+
+
+<div class="section-container pl0 pr0">
+<div class="section-item pl0">
 
 ## GCD/HCF - Euclidean Algorithm
 
@@ -26,13 +29,8 @@ public static int gcd(int a, int b)
 // Time Complexity: O(Log min(a, b))  
 // Auxiliary Space: O(1)
 ```
-
-## Sieve of Eratosthenes
-
-```
-Generating primes fast is very important in some problems.You can use the Sieve of Eratosthenes to find all the prime numbers that are less than or equal to a given number N or to find out whether a number is a prime number. The basic idea behind the Sieve of Eratosthenes is that at each iteration one prime number is picked up and all its multiples are eliminated. After the elimination process is complete, all the unmarked numbers that remain are prime.
-
-```
+</div>
+<div class="section-item">
 
 ## Modulo Exponentiation, Arithmetic and Inverse
 
@@ -43,6 +41,32 @@ Generating primes fast is very important in some problems.You can use the Sieve 
 4. (a/b)%c = ((a%c)?(b%c))%c 
 
 ```
+
+</div>
+</div>
+
+<hr/>
+<div class="section-container pl0 pr0">
+<div class="section-item pl0">
+
+## Sieve of Eratosthenes
+
+```
+Generating primes fast is very important in some problems.You can use the Sieve of Eratosthenes to find all the prime numbers that are less than or equal to a given number N or to find out whether a number is a prime number. 
+
+The basic idea behind the Sieve of Eratosthenes is that at each iteration one prime number is picked up and all its multiples are eliminated. After the elimination process is complete, all the unmarked numbers that remain are prime.
+
+```
+</div>
+<div class="section-item flex-ve">
+
+![](2022-07-04-16-28-14.png)
+</div>
+</div>
+
+
+
+
 
 ## Logarithmic Bounds
 

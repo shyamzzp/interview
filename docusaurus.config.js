@@ -274,6 +274,17 @@ module.exports = {
               },
             ],
           },
+          {
+            type: "dropdown",
+            label: "Practice Sets",
+            position: "left",
+            items: [
+              {
+                label: "GeeksForGeeks - Microsoft (Set-1)",
+                to: "/docs/problem-set/geeksforgeeks/microsoft/set-1",
+              },
+            ],
+          },
         ],
       },
       prism: {
