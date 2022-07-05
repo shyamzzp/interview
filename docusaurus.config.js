@@ -281,7 +281,7 @@ module.exports = {
             items: [
               {
                 label: "GeeksForGeeks - Microsoft (Set-1)",
-                to: "/docs/problem-set/geeksforgeeks/microsoft/set-1",
+                to: "/docs/problem-set/set-1",
               },
             ],
           },
