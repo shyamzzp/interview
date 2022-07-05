@@ -522,6 +522,10 @@ table th {
   padding-right: 0;
 }
 
+.pt0 {
+  padding-top: 0;
+}
+
 code {
   white-space: pre-wrap !important;
 }

@@ -12,7 +12,7 @@ last_modified: 2022-07-05T20:13:36.1336
 <div class="section-item pl0">
 
 ### Celebrity problem
-In a party of N people, only one person is known to everyone. Such a person may be present in the party, if yes, (s)he doesn’t know anyone in the party. We can only ask questions like "does A know B? ". Find the stranger (celebrity) in the minimum number of questions.
+In a party of N people, only one person is known to everyone. Such a person may be present in the party, if yes, (s)he doesn't know anyone in the party. We can only ask questions like "does A know B? ". Find the stranger (celebrity) in the minimum number of questions.
 
 </div>
 <div class="section-item">
@@ -22,6 +22,7 @@ Given two values k1 and k2 (where k1 < k2) and a root pointer to a Binary Search
 </div>
 </div>
 
+<hr/> 
 <div class="section-container pl0 pr0">
 <div class="section-item pl0">
 
@@ -36,6 +37,7 @@ Level order traversal of a tree is breadth first traversal for the tree.
 </div>
 
 
+<hr/> 
 <div class="section-container pl0 pr0">
 <div class="section-item pl0">
 
@@ -52,6 +54,7 @@ If the input linked list is NULL, then it should remain NULL.
 </div>
 </div>
 
+<hr/> 
 <div class="section-container pl0 pr0">
 <div class="section-item pl0">
 
@@ -66,6 +69,7 @@ Given an array where every element occurs three times, except one element which 
 </div>
 </div>
 
+<hr/>
 <div class="section-container pl0 pr0">
 <div class="section-item pl0">
 
@@ -85,6 +89,85 @@ Given a string, remove all the duplicates and print the string. For example, if 
 ![](2022-07-05-21-24-49.png)
 </div>
 </div>
+<hr/>
+
+## Medium
+
+<div class="section-container pl0 pr0">
+<div class="section-item pl0">
+
+### Flattening a Linked List
+Given a linked list where every node represents a linked list and contains two pointers of its type: 
+
+- Pointer to next node in the main list (we call it 'right' pointer in the code below) 
+- Pointer to a linked list where this node is headed (we call it the 'down' pointer in the code below).
+
+All linked lists are sorted.
+</div>
+<div class="section-item">
+
+![](2022-07-05-21-31-48.png)
+
+For example, Output for above eg:  
+<mark class="pt0">5->7->10->20->19->22->28->35</mark>. 
+</div>
+</div>
+
+<hr/>
+
+<div class="section-container pl0 pr0">
+<div class="section-item pl0">
+
+### Program to convert a given number to words
+Write code to convert a given number into words. For example, if "1234" is given as input, the output should be "one thousand two hundred thirty-four".
+
+![](2022-07-05-21-37-07.png)
+</div>
+<div class="section-item">
+The code supports numbers up to 4 digits, i.e., numbers from 0 to 9999. Idea is to create arrays that store individual parts of output strings. One array is used for single digits, one for numbers from 10 to 19, one for 20, 30, 40, 50, .. etc, and one for powers of 10. 
+The given number is divided into two parts: the first two digits and the last two digits, and the two parts are printed separately. 
+</div>
+</div>
+<hr/>
+
+<div class="section-container pl0 pr0">
+<div class="section-item pl0">
+
+### Longest Even Length Substring such that Sum of First and Second Half is same
+Given a string 'str' of digits, find the length of the longest substring of 'str', such that the length of the substring is 2k digits and sum of left k digits is equal to the sum of right k digits. 
+</div>
+<div class="section-item">
+
+![](2022-07-05-21-39-26.png)
+</div>
+</div>
+
+<hr/>
+
+<div class="section-container pl0 pr0">
+<div class="section-item pl0">
+
+### Find Excel column name from a given column number
+MS Excel columns have a pattern like A, B, C, …, Z, AA, AB, AC, …., AZ, BA, BB, … ZZ, AAA, AAB ….. etc. In other words, column 1 is named "A", column 2 as "B", and column 27 as "AA".
+Given a column number, find its corresponding Excel column name.
+
+![](2022-07-05-21-41-38.png)
+</div>
+<div class="section-item">
+
+If the remainder with 26 comes out to be 0 (meaning 26, 52, and so on) then we put ‘Z’ in the output string and new n becomes n/26 -1 because here we are considering 26 to be ‘Z’ while in actuality it’s 25th with respect to ‘A’.
+
+Similarly, if the remainder comes out to be non-zero. (like 1, 2, 3, and so on) then we need to just insert the char accordingly in the string and do n = n/26.
+
+Finally, we reverse the string and print. 
+
+Example: 
+n = 700
+The remainder (n%26) is 24. So we put ‘X’ in the output string and n becomes n/26 which is 26. 
+Remainder (26%26) is 0. So we put ‘Z’ in the output string and n becomes n/26 -1 which is 0.
+</div>
+</div>
+<hr/>
 
 ## References
 
