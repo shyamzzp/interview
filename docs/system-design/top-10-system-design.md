@@ -1,12 +1,10 @@
 ---
 tree_title: Top 10 System Design Overview
 description: Here are the top 10 system design questions that you should ask yourself when you are interviewing for a job.
-last_modified: 2022-06-24T16:27:36.2736
+last_modified: 2022-07-08T16:28:59.2859
 ---
 
 # Top 10 System Design Overview
-
-## Contents
 
 ## Overview of the Section
 
