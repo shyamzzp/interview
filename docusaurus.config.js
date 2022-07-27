@@ -257,6 +257,10 @@ module.exports = {
                 label: "Uber/Lyft System Design",
                 to: "/interview/docs/system-design/uber",
               },
+              {
+                label: "Location of Lockers System Design",
+                to: "/interview/docs/system-design/location-lockers",
+              },
             ],
           },
           {

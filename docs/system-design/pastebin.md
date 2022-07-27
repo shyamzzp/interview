@@ -96,6 +96,5 @@ And also to notice that the system is Ready heavy, as user might access paste ur
 ## References
 
 <ul>
-    <li><a href="https://www.youtube.com/watch?v=josjRSBqEBI">Paste bin system design | Software architecture for paste bin
-</a></li>
+    <li><a href="https://www.youtube.com/watch?v=josjRSBqEBI">Paste bin system design | Software architecture for paste bin</a></li>
 </ul>
