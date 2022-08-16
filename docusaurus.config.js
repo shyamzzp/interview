@@ -289,6 +289,17 @@ module.exports = {
               },
             ],
           },
+          {
+            type: "dropdown",
+            label: "Tools & Modules",
+            position: "left",
+            items: [
+              {
+                label: "Webpack",
+                to: "/docs/tools_modules/webpack",
+              },
+            ],
+          },
         ],
       },
       prism: {

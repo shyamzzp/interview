@@ -186,3 +186,7 @@
 .test-marker-site-index-page {
   content: "site-index-page";
 }
+
+img[src$='#img-thumbnail'] {
+  width: 80%;
+}
