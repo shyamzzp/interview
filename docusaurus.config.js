@@ -298,6 +298,10 @@ module.exports = {
                 label: "Webpack",
                 to: "/docs/tools_modules/webpack",
               },
+              {
+                label: "Github Linguist",
+                to: "/docs/tools_modules/github_linguist",
+              },
             ],
           },
         ],
