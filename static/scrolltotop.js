@@ -14,11 +14,11 @@ const handleScroll = () => {
 
 document.addEventListener("scroll", handleScroll);
 
-function onOpen() {
-  document.getElementByClassName("description-container").style.display =
-    "block";
-}
-function onClose() {
-  document.getElementByClassName("description-container").style.display =
-    "none";
-}
+// function onOpen() {
+//   document.getElementByClassName("description-container").style.display =
+//     "block";
+// }
+// function onClose() {
+//   document.getElementByClassName("description-container").style.display =
+//     "none";
+// }

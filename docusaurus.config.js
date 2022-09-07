@@ -304,6 +304,21 @@ module.exports = {
               },
             ],
           },
+          {
+            type: "dropdown",
+            label: "Case Studies",
+            position: "left",
+            items: [
+              {
+                label: "Webpack",
+                to: "/docs/case_studies/webpack",
+              },
+              {
+                label: "Github Linguist",
+                to: "/docs/case_studies/github_linguist",
+              },
+            ],
+          },
         ],
       },
       prism: {

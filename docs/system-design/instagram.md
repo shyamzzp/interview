@@ -26,7 +26,7 @@ Instagram is a social networking service that enables its users to upload and sh
 Will be focusing on the functional and non-functional requirements of the system. Also we can define what actual features from the actual instagram are not in scope to minimize the effort.
 
 </div>
-<div class="section-item">
+<div class="section-item pl0">
 
 ### 3. Some Design Considerations
 
@@ -40,7 +40,7 @@ What would be the feasible features and constraints of the system? Some of the c
 Discussion about the traffic and storage that the system would be using. This will also be categorized on the basis of different timelines. For e.g. what is the overall space needed for the system to be up and running for 10 years.
 
 </div>
-<div class="section-item">
+<div class="section-item pl0">
 
 ### 5. High Level System Design
 
@@ -65,7 +65,7 @@ This section will be specifically focused on, What is the data size of the db? W
 
 ### 8. Component Design
 
-Considering each component of the system, what are the services that are involved and how are they related to each other? What are the dependencies between the services? What are the dependencies between the services and the db? 
+Considering each component of the system, what are the services that are involved and how are they related to each other? What are the dependencies between the services? What are the dependencies between the services and the db?
 
 </div>
 <div class="section-item pl0">
@@ -79,7 +79,7 @@ Discussing whether the system is reliable or not meaning if I upload anything to
 
 ### 10. Data Sharding
 
-Creating backup of the database and partitioning the database so that the data is not lost if one of the server fails. This also helps in the faster retrieval of the data and hence reducing the overall latency of the system. 
+Creating backup of the database and partitioning the database so that the data is not lost if one of the server fails. This also helps in the faster retrieval of the data and hence reducing the overall latency of the system.
 
 </div>
 <div class="section-item pl0">
@@ -93,7 +93,7 @@ How the home page of the application will be behaving and what are the initial a
 
 ### 12. News Feed Creation with Sharded Data
 
-As we are dealing with the distributed system hwo will the main feature of the system will be behaving with the database and how will the system be interacting with the database. The process includes fetching of the latest photos uploaded from the people who are following the user.
+As we are dealing with the distributed system how will the main feature of the system will be behaving with the database and how will the system be interacting with the database. The process includes fetching of the latest photos uploaded from the people who are following the user.
 
 </div>
 <div class="section-item pl0">
@@ -130,10 +130,10 @@ We plan to design a simpler version of Instagram for this design problem, where 
 
 ### Functional Requirements
 
--   Users should be able to upload/download/view photos.
--   Users can perform searches based on photo/video titles.
--   Users can follow other users.
--   The system should generate and display a user's News Feed consisting of top photos from all the people the user follows.
+- Users should be able to upload/download/view photos.
+- Users can perform searches based on photo/video titles.
+- Users can follow other users.
+- The system should generate and display a user's News Feed consisting of top photos from all the people the user follows.
 
 </div>
 
@@ -141,10 +141,10 @@ We plan to design a simpler version of Instagram for this design problem, where 
 
 ### Non-Functional Requirements
 
--   Our service needs to be highly available.
--   The acceptable latency of the system is 200ms for News Feed generation.
--   Consistency can take a hit (in the interest of availability) if a user doesn't see a photo for a while; it should be fine.
--   The system should be highly reliable; any uploaded photo or video should never be lost.
+- Our service needs to be highly available.
+- The acceptable latency of the system is 200ms for News Feed generation.
+- Consistency can take a hit (in the interest of availability) if a user doesn't see a photo for a while; it should be fine.
+- The system should be highly reliable; any uploaded photo or video should never be lost.
 
 </div>
 
@@ -157,17 +157,17 @@ We plan to design a simpler version of Instagram for this design problem, where 
 
 The system would be read-heavy, so we will focus on building a system that can retrieve photos quickly.
 
--   Practically, users can upload as many photos as they like; therefore, efficient management of storage should be a crucial factor in designing this system.
--   Low latency is expected while viewing photos.
--   Data should be 100% reliable. If a user uploads a photo, the system will guarantee that it will never be lost.
+- Practically, users can upload as many photos as they like; therefore, efficient management of storage should be a crucial factor in designing this system.
+- Low latency is expected while viewing photos.
+- Data should be 100% reliable. If a user uploads a photo, the system will guarantee that it will never be lost.
 
 ## 4. Capacity Estimation and Constraints
 
--   Let's assume we have <strong>500M total users</strong>, with <mark>1M daily active users</mark>.
--   2M new photos every day, 23 new photos every second.
--   Average photo file size => <mark>200KB</mark>
--   Total space required for 1 day of photos <mark>2M \* 200KB => 400 GB</mark>
--   Total space required for 10 years: <mark>400GB _ 365 (days a year) _ 10 (years) ~= 1425TB</mark>
+- Let's assume we have <strong>500M total users</strong>, with <mark>1M daily active users</mark>.
+- 2M new photos every day, 23 new photos every second.
+- Average photo file size => <mark>200KB</mark>
+- Total space required for 1 day of photos <mark>2M \* 200KB => 400 GB</mark>
+- Total space required for 10 years: <mark>400GB _ 365 (days a year) _ 10 (years) ~= 1425TB</mark>
 
 <hr/>
 
@@ -227,16 +227,16 @@ NoSQL stores, in general, always maintain a certain number of replicas to offer 
 
 ### Why choose NoSQL?
 
-NoSql makes more sense to me because there are billions of videos on youtube and scaling relational database is hard (vertical scaling) and it will reach its limitation. 
+NoSql makes more sense to me because there are billions of videos on youtube and scaling relational database is hard (vertical scaling) and it will reach its limitation.
 
 Whereas NoSql database like Cassandra are specifically designed with Big Data in mind and they are easily scalable. We need to come up with the right schema for tables so that queries which we run on Cassandra are efficient. Cassandra is write optimized not read.
 
 For example Here for storing Metadata and user information we should answer this question:
 
--   Schema Might change in future a lot ? - ✅ (NoSQL) | ❌ (SQL)
--   Do we care about the constituency about the likes and dislikes? - ✅ (SQL) | ❌ (NoSQL)
--   Do we have lot of relations in our DB: ✅ (SQL) | ❌ (NoSQL)
--   Are we going to do lots of Joins operation on data : ✅ (SQL) | ❌ (NoSQL)
+- Schema Might change in future a lot ? - ✅ (NoSQL) | ❌ (SQL)
+- Do we care about the constituency about the likes and dislikes? - ✅ (SQL) | ❌ (NoSQL)
+- Do we have lot of relations in our DB: ✅ (SQL) | ❌ (NoSQL)
+- Are we going to do lots of Joins operation on data : ✅ (SQL) | ❌ (NoSQL)
 
 </div>
 <hr/>
@@ -295,7 +295,7 @@ Total space required for all tables for 10 years will be 3.7TB:
 
 Photo uploads (or writes) can be slow as they have to go to the disk, whereas reads will be faster, especially if they are being served from cache.
 
-Uploading users can consume all the available connections, as uploading is a slow process. This means that 'reads' cannot be served if the system gets busy with all the 'write' requests. We should keep in mind that web servers have a connection limit before designing our system. If we assume that a web server can have a maximum of 500 connections at any time, then it can't have more than 500 concurrent uploads or reads. 
+Uploading users can consume all the available connections, as uploading is a slow process. This means that 'reads' cannot be served if the system gets busy with all the 'write' requests. We should keep in mind that web servers have a connection limit before designing our system. If we assume that a web server can have a maximum of 500 connections at any time, then it can't have more than 500 concurrent uploads or reads.
 
 To handle this bottleneck, we can split reads and writes into separate services. We will have dedicated servers for reads and different servers for writes to ensure that uploads don't hog the system.
 
@@ -364,7 +364,7 @@ If we can generate unique PhotoIDs first and then find a shard number through �
 
 ### How can we generate PhotoIDs?
 
-Here, we cannot have an auto-incrementing sequence in each shard to define PhotoID because we need to know PhotoID first to find the shard where it will be stored. One solution could be that we dedicate a separate database instance to generate auto-incrementing IDs. If our PhotoID can fit into 64 bits, we can define a table containing only a 64 bit ID field. 
+Here, we cannot have an auto-incrementing sequence in each shard to define PhotoID because we need to know PhotoID first to find the shard where it will be stored. One solution could be that we dedicate a separate database instance to generate auto-incrementing IDs. If our PhotoID can fit into 64 bits, we can define a table containing only a 64 bit ID field.
 
 So whenever we would like to add a photo in our system, we can insert a new row in this table and take that ID to be our PhotoID of the new photo.
 
@@ -374,13 +374,13 @@ So whenever we would like to add a photo in our system, we can insert a new row 
 ### Wouldn't this key generating DB be a single point of failure?
 
 Yes, it would be. A workaround for that could be to define two such databases, one generating even-numbered IDs and the other odd-numbered.
-We can put a load balancer in front of both of these databases to round-robin between them and to deal with downtime. Both these servers could be out of sync, with one generating more keys than the other, but this will not cause any issue in our system. 
+We can put a load balancer in front of both of these databases to round-robin between them and to deal with downtime. Both these servers could be out of sync, with one generating more keys than the other, but this will not cause any issue in our system.
 
 We can extend this design by defining separate ID tables for Users, Photo-Comments, or other objects present in our system.
 
 ### How can we plan for the future growth of our system?
 
-We can have a large number of logical partitions to accommodate future data growth, such that in the beginning, multiple logical partitions reside on a single physical database server. Since each database server can have multiple database instances running on it, we can have separate databases for each logical partition on any server. 
+We can have a large number of logical partitions to accommodate future data growth, such that in the beginning, multiple logical partitions reside on a single physical database server. Since each database server can have multiple database instances running on it, we can have separate databases for each logical partition on any server.
 
 So whenever we feel that a particular database server has a lot of data, we can migrate some logical partitions from it to another server. We can maintain a config file (or a separate database) that can map our logical partitions to database servers; this will enable us to move partitions around easily. Whenever we want to move a partition, we only have to update the config file to announce the change.
 
@@ -395,7 +395,7 @@ So whenever we feel that a particular database server has a lot of data, we can 
 
 To create the News Feed for any given user, we need to fetch the latest, most popular, and relevant photos of the people the user follows.
 
-For simplicity, let's assume we need to fetch the top 100 photos for a user's News Feed. Our application server will first get a list of people the user follows and then fetch metadata info of each user's latest 100 photos. In the final step, the server will submit all these photos to our ranking algorithm, which will determine the top 100 photos (based on recency, likeness, etc.) and return them to the user. 
+For simplicity, let's assume we need to fetch the top 100 photos for a user's News Feed. Our application server will first get a list of people the user follows and then fetch metadata info of each user's latest 100 photos. In the final step, the server will submit all these photos to our ranking algorithm, which will determine the top 100 photos (based on recency, likeness, etc.) and return them to the user.
 
 </div>
 
@@ -470,20 +470,20 @@ If we go with the eighty-twenty rule, i.e., 20% of daily read volume for photos 
 
 ## 14. What Powers Instagram (Optional)
 
-One of the questions we always get asked at meet-ups and conversations with other engineers is, “what's your stack?” We thought it would be fun to give a sense of all the systems that power Instagram, at a high-level; you can look forward to more in-depth descriptions of some of these systems in the future. 
+One of the questions we always get asked at meet-ups and conversations with other engineers is, “what's your stack?” We thought it would be fun to give a sense of all the systems that power Instagram, at a high-level; you can look forward to more in-depth descriptions of some of these systems in the future.
 
 This is how our system has evolved in the just-over-1-year that we've been live, and while there are parts we're always re-working, this is a glimpse of how a startup with a small engineering team can scale to our 14 million+ users in a little over a year. Our core principles when choosing a system are:
 
--   Keep it very simple
--   Don't re-invent the wheel
--   Go with proven and solid technologies when you can
+- Keep it very simple
+- Don't re-invent the wheel
+- Go with proven and solid technologies when you can
 
 <div class="section-container pl0 pr0">
 <div class="section-item pl0">
 
 ### OS / Hosting
 
-We run Ubuntu Linux 11.04 (“Natty Narwhal”) on Amazon EC2. We've found previous versions of Ubuntu had all sorts of unpredictable freezing episodes on EC2 under high traffic, but Natty has been solid. 
+We run Ubuntu Linux 11.04 (“Natty Narwhal”) on Amazon EC2. We've found previous versions of Ubuntu had all sorts of unpredictable freezing episodes on EC2 under high traffic, but Natty has been solid.
 
 We've only got 3 engineers, and our needs are still evolving, so self-hosting isn't an option we've explored too deeply yet, though is something we may revisit in the future given the unparalleled growth in usage.
 
@@ -492,7 +492,7 @@ We've only got 3 engineers, and our needs are still evolving, so self-hosting is
 
 ### Load Balancing
 
-Every request to Instagram servers goes through load balancing machines; we used to run 2 nginx machines and DNS Round-Robin between them. The downside of this approach is the time it takes for DNS to update in case one of the machines needs to get decomissioned. 
+Every request to Instagram servers goes through load balancing machines; we used to run 2 nginx machines and DNS Round-Robin between them. The downside of this approach is the time it takes for DNS to update in case one of the machines needs to get decomissioned.
 
 Recently, we moved to using Amazon's Elastic Load Balancer, with 3 NGINX instances behind it that can be swapped in and out (and are automatically taken out of rotation if they fail a health check). We also terminate our SSL at the ELB level, which lessens the CPU load on nginx. We use Amazon's Route53 for DNS, which they've recently added a pretty good GUI tool for in the AWS console.
 
@@ -504,7 +504,7 @@ Recently, we moved to using Amazon's Elastic Load Balancer, with 3 NGINX instanc
 
 ### Application Servers
 
-Next up comes the application servers that handle our requests. We run Django on Amazon High-CPU Extra-Large machines, and as our usage grows we've gone from just a few of these machines to over 25 of them (luckily, this is one area that's easy to horizontally scale as they are stateless). 
+Next up comes the application servers that handle our requests. We run Django on Amazon High-CPU Extra-Large machines, and as our usage grows we've gone from just a few of these machines to over 25 of them (luckily, this is one area that's easy to horizontally scale as they are stateless).
 
 We've found that our particular work-load is very CPU-bound rather than memory-bound, so the High-CPU Extra-Large instance type provides the right balance of memory and CPU.
 
@@ -540,7 +540,7 @@ To connect to our databases from our app servers, we made early on that had a hu
 
 The photos themselves go straight to Amazon S3, which currently stores several terabytes of photo data for us. We use Amazon CloudFront as our CDN, which helps with image load times from users around the world (like in Japan, our second most-popular country).
 
-We also use Redis extensively; it powers our main feed, our activity feed, our sessions system (here's our Django session backend), and other related systems. All of Redis' data needs to fit in memory, so we end up running several Quadruple Extra-Large Memory instances for Redis, too, and occasionally shard across a few Redis instances for any given subsystem. 
+We also use Redis extensively; it powers our main feed, our activity feed, our sessions system (here's our Django session backend), and other related systems. All of Redis' data needs to fit in memory, so we end up running several Quadruple Extra-Large Memory instances for Redis, too, and occasionally shard across a few Redis instances for any given subsystem.
 
 We run Redis in a master-replica setup, and have the replicas constantly saving the DB out to disk, and finally use EBS snapshots to backup those DB dumps (we found that dumping the DB on the master was too taxing). Since Redis allows writes to its replicas, it makes for very easy online failover to a new Redis machine, without requiring any downtime.
 
@@ -552,7 +552,7 @@ We run Redis in a master-replica setup, and have the replicas constantly saving 
 
 ### Monitoring
 
-With 100+ instances, it's important to keep on top of what's going on across the board. We use Munin to graph metrics across all of our system, and also alert us if anything is outside of its normal range. We write a lot of custom Munin plugins, building on top of Python-Munin, to graph metrics that aren't system-level (for example, sign-ups per minute, photos posted per second, etc). 
+With 100+ instances, it's important to keep on top of what's going on across the board. We use Munin to graph metrics across all of our system, and also alert us if anything is outside of its normal range. We write a lot of custom Munin plugins, building on top of Python-Munin, to graph metrics that aren't system-level (for example, sign-ups per minute, photos posted per second, etc).
 
 We use Pingdom for external monitoring of the service, and PagerDuty for handling notifications and incidents.
 
@@ -563,5 +563,5 @@ For Python error reporting, we use Sentry, an awesome open-source Django app wri
 
 ## References
 
--   <https://www.educative.io/courses/grokking-the-system-design-interview/m2yDVZnQ8lG>
--   <https://instagram-engineering.com/what-powers-instagram-hundreds-of-instances-dozens-of-technologies-adf2e22da2ad>
+- <https://www.educative.io/courses/grokking-the-system-design-interview/m2yDVZnQ8lG>
+- <https://instagram-engineering.com/what-powers-instagram-hundreds-of-instances-dozens-of-technologies-adf2e22da2ad>
