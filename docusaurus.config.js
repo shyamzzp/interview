@@ -146,7 +146,10 @@ module.exports = {
                 label: "Bit Manipulation",
                 to: "/docs/data-structures/bit-manipulation",
               },
-
+              {
+                label: "Bitwise Operations",
+                to: "/docs/data-structures/bitwise-operations",
+              },
               {
                 label: "Comparators",
                 to: "/docs/data-structures/comparators",
