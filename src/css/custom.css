@@ -698,3 +698,14 @@ mark {
   display: flex !important;
   align-items: flex-end !important;
 }
+
+img[alt~="AmazonPrime"] {
+  width: 100px;
+}
+
+img[alt~="Netflix"] {
+  width: 100px;
+  border: none !important;
+  border-radius: 0;
+  margin-left: 10px;
+}

@@ -11,7 +11,17 @@ last_modified: 2022-09-07T13:17:34.1734
 
 ### Streaming Based Web-Applications
 
-Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.
+For web developers, there's never been a more exciting time to build for the web. Browsers are more feature-rich and devices more powerful each year.
+
+On top of that, we have great frameworks and tooling as well as features such as Service Workers that allow you to build amazing websites for your users.
+
+Using the Progressive Times application as an example, you could build a streaming video player or even use the streaming abilities of a browser to progressively render a large web page.
+
+This above sub-component leads to developing a very heavy platform for endless users to use on a daily basis.
+
+![AmazonPrime](amazon-prime.svg)
+![Netflix](netflix.svg)
+
 <span class="tag-is-success" onClick={()=>{document.getElementsByClassName("description-container")[0].style.display = "block";}}>Read More</span>
 
 <div className="description-container">
@@ -20,7 +30,7 @@ Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem
 
 # Hello world
 
-## This is the second heading.
+<h4>This is the second heading.</h4>
 
 </div>
 </div>
@@ -39,7 +49,7 @@ Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem
 
 # Hello world
 
-## This is the second heading.
+<h4>This is the second heading.</h4>
 
 </div>
 </div>
@@ -61,7 +71,7 @@ Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem
 
 # Hello world
 
-## This is the second heading.
+<h4>This is the second heading.</h4>
 
 </div>
 </div>
@@ -80,7 +90,7 @@ Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem
 
 # Hello world
 
-## This is the second heading.
+<h4>This is the second heading.</h4>
 
 </div>
 </div>
@@ -102,7 +112,7 @@ Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem
 
 # Hello world
 
-## This is the second heading.
+<h4>This is the second heading.</h4>
 
 </div>
 </div>
@@ -121,7 +131,7 @@ Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem
 
 # Hello world
 
-## This is the second heading.
+<h4>This is the second heading.</h4>
 
 </div>
 </div>
@@ -143,7 +153,7 @@ Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem
 
 # Hello world
 
-## This is the second heading.
+<h4>This is the second heading.</h4>
 
 </div>
 </div>
@@ -162,7 +172,7 @@ Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem
 
 # Hello world
 
-## This is the second heading.
+<h4>This is the second heading.</h4>
 
 </div>
 </div>
@@ -184,7 +194,7 @@ Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem
 
 # Hello world
 
-## This is the second heading.
+<h4>This is the second heading.</h4>
 
 </div>
 </div>
@@ -203,7 +213,7 @@ Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem
 
 # Hello world
 
-## This is the second heading.
+<h4>This is the second heading.</h4>
 
 </div>
 </div>
@@ -225,7 +235,7 @@ Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem
 
 # Hello world
 
-## This is the second heading.
+<h4>This is the second heading.</h4>
 
 </div>
 </div>
@@ -244,7 +254,7 @@ Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem
 
 # Hello world
 
-## This is the second heading.
+<h4>This is the second heading.</h4>
 
 </div>
 </div>
@@ -265,7 +275,7 @@ Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem
 
 # Hello world
 
-## This is the second heading.
+<h4>This is the second heading.</h4>
 
 </div>
 </div>
@@ -284,7 +294,7 @@ Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem
 
 # Hello world
 
-## This is the second heading.
+<h4>This is the second heading.</h4>
 
 </div>
 </div>
