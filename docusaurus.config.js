@@ -301,10 +301,10 @@ module.exports = {
                 label: "Webpack",
                 to: "/docs/tools_modules/webpack",
               },
-              {
-                label: "Github Linguist",
-                to: "/docs/tools_modules/github_linguist",
-              },
+              // {
+              //   label: "Github Linguist",
+              //   to: "/docs/tools_modules/github_linguist",
+              // },
             ],
           },
           {
@@ -316,10 +316,10 @@ module.exports = {
                 label: "Webpack",
                 to: "/docs/case_studies/webpack",
               },
-              {
-                label: "Github Linguist",
-                to: "/docs/case_studies/github_linguist",
-              },
+              // {
+              //   label: "Github Linguist",
+              //   to: "/docs/case_studies/github_linguist",
+              // },
             ],
           },
         ],
